@@ -1,0 +1,59 @@
+INFO 2023-09-21 08:02:44,479 autoreload 8828 16020 Watching for file changes with StatReloader
+INFO 2023-09-21 08:02:50,906 basehttp 8828 17364 "GET /about/ HTTP/1.1" 200 1030
+INFO 2023-09-21 08:02:59,276 basehttp 8828 17364 "GET / HTTP/1.1" 200 693
+INFO 2023-09-21 08:05:27,854 autoreload 8828 16020 F:\Ó÷¸áà\GB\Django\dz1\dz1\dz1app\views.py changed, reloading.
+INFO 2023-09-21 08:05:28,526 autoreload 12792 17092 Watching for file changes with StatReloader
+INFO 2023-09-21 08:05:34,807 basehttp 12792 5308 "GET / HTTP/1.1" 200 629
+INFO 2023-09-21 08:06:59,270 autoreload 12792 17092 F:\Ó÷¸áà\GB\Django\dz1\dz1\dz1app\views.py changed, reloading.
+INFO 2023-09-21 08:06:59,910 autoreload 15396 15556 Watching for file changes with StatReloader
+INFO 2023-09-21 08:07:05,440 basehttp 15396 15616 "GET / HTTP/1.1" 200 664
+INFO 2023-09-21 08:07:30,738 autoreload 15396 15556 F:\Ó÷¸áà\GB\Django\dz1\dz1\dz1app\views.py changed, reloading.
+INFO 2023-09-21 08:07:31,378 autoreload 16544 5192 Watching for file changes with StatReloader
+INFO 2023-09-21 08:07:56,577 autoreload 16544 5192 F:\Ó÷¸áà\GB\Django\dz1\dz1\dz1app\views.py changed, reloading.
+INFO 2023-09-21 08:07:57,263 autoreload 2996 15016 Watching for file changes with StatReloader
+INFO 2023-09-21 08:08:02,279 basehttp 2996 6612 "GET / HTTP/1.1" 200 662
+INFO 2023-09-21 08:08:05,224 basehttp 2996 6612 "GET /about/ HTTP/1.1" 200 1089
+INFO 2023-09-21 08:09:32,375 autoreload 2996 15016 F:\Ó÷¸áà\GB\Django\dz1\dz1\dz1app\views.py changed, reloading.
+INFO 2023-09-21 08:09:33,049 autoreload 16228 11504 Watching for file changes with StatReloader
+INFO 2023-09-21 08:09:34,550 basehttp 16228 17380 "GET /about/ HTTP/1.1" 200 1089
+INFO 2023-09-21 08:10:13,478 autoreload 16228 11504 F:\Ó÷¸áà\GB\Django\dz1\dz1\dz1app\views.py changed, reloading.
+INFO 2023-09-21 08:10:14,146 autoreload 16960 16404 Watching for file changes with StatReloader
+INFO 2023-09-21 08:10:17,022 basehttp 16960 16368 "GET /about/ HTTP/1.1" 200 1141
+WARNING 2023-09-21 08:10:19,058 log 16960 16368 Not Found: /about/index
+WARNING 2023-09-21 08:10:19,059 basehttp 16960 16368 "GET /about/index HTTP/1.1" 404 2484
+INFO 2023-09-21 08:10:36,435 autoreload 16960 16404 F:\Ó÷¸áà\GB\Django\dz1\dz1\dz1app\views.py changed, reloading.
+INFO 2023-09-21 08:10:37,084 autoreload 15572 15892 Watching for file changes with StatReloader
+INFO 2023-09-21 08:10:39,656 basehttp 15572 17360 "GET /about/ HTTP/1.1" 200 1142
+WARNING 2023-09-21 08:10:42,172 log 15572 17360 Not Found: /index
+WARNING 2023-09-21 08:10:42,173 basehttp 15572 17360 "GET /index HTTP/1.1" 404 2466
+INFO 2023-09-21 08:11:07,903 autoreload 15572 15892 F:\Ó÷¸áà\GB\Django\dz1\dz1\dz1app\views.py changed, reloading.
+INFO 2023-09-21 08:11:08,559 autoreload 14664 784 Watching for file changes with StatReloader
+INFO 2023-09-21 08:11:11,366 basehttp 14664 13060 "GET /about/ HTTP/1.1" 200 1137
+INFO 2023-09-21 08:11:12,537 basehttp 14664 13060 "GET / HTTP/1.1" 200 650
+INFO 2023-09-21 08:11:14,120 basehttp 14664 13060 "GET /about/ HTTP/1.1" 200 1137
+INFO 2023-09-21 08:11:14,998 basehttp 14664 13060 "GET / HTTP/1.1" 200 650
+INFO 2023-09-21 08:11:16,005 basehttp 14664 13060 "GET /about/ HTTP/1.1" 200 1137
+INFO 2023-09-22 06:47:29,237 autoreload 14632 11196 Watching for file changes with StatReloader
+INFO 2023-09-22 06:47:31,894 basehttp 14632 3148 "GET / HTTP/1.1" 200 701
+WARNING 2023-09-22 06:47:32,175 log 14632 3148 Not Found: /favicon.ico
+WARNING 2023-09-22 06:47:32,177 basehttp 14632 3148 "GET /favicon.ico HTTP/1.1" 404 2484
+INFO 2023-09-22 06:47:35,052 basehttp 14632 3148 "GET /about/ HTTP/1.1" 200 1181
+INFO 2023-09-22 06:48:20,405 autoreload 14632 11196 F:\Ó÷¸áà\GB\Django\dz1\dz1\dz1app\views.py changed, reloading.
+INFO 2023-09-22 06:48:21,038 autoreload 15172 3064 Watching for file changes with StatReloader
+INFO 2023-09-22 06:48:25,061 basehttp 15172 11680 "GET /about/ HTTP/1.1" 200 1167
+INFO 2023-09-22 06:49:44,153 autoreload 15172 3064 F:\Ó÷¸áà\GB\Django\dz1\dz1\dz1app\views.py changed, reloading.
+INFO 2023-09-22 06:49:44,802 autoreload 3388 10968 Watching for file changes with StatReloader
+INFO 2023-09-22 06:49:50,941 basehttp 3388 7136 "GET /about/ HTTP/1.1" 200 1142
+INFO 2023-09-22 06:50:41,119 autoreload 3388 10968 F:\Ó÷¸áà\GB\Django\dz1\dz1\dz1app\views.py changed, reloading.
+INFO 2023-09-22 06:50:41,799 autoreload 14868 15192 Watching for file changes with StatReloader
+INFO 2023-09-22 06:50:44,907 basehttp 14868 13124 "GET /about/ HTTP/1.1" 200 1152
+INFO 2023-09-22 06:51:20,079 autoreload 14868 15192 F:\Ó÷¸áà\GB\Django\dz1\dz1\dz1app\views.py changed, reloading.
+INFO 2023-09-22 06:51:20,739 autoreload 15540 14656 Watching for file changes with StatReloader
+INFO 2023-09-22 06:51:22,926 basehttp 15540 15076 "GET /about/ HTTP/1.1" 200 1169
+INFO 2023-09-22 06:51:26,110 basehttp 15540 15076 "GET / HTTP/1.1" 200 701
+INFO 2023-09-22 06:52:05,351 autoreload 15540 14656 F:\Ó÷¸áà\GB\Django\dz1\dz1\dz1app\views.py changed, reloading.
+INFO 2023-09-22 06:52:06,014 autoreload 5588 13668 Watching for file changes with StatReloader
+INFO 2023-09-22 06:52:07,897 basehttp 5588 5320 "GET / HTTP/1.1" 200 708
+INFO 2023-09-22 06:52:16,938 basehttp 5588 5320 "GET /about/ HTTP/1.1" 200 1169
+INFO 2023-09-22 06:52:37,785 autoreload 5588 13668 F:\Ó÷¸áà\GB\Django\dz1\dz1\dz1app\views.py changed, reloading.
+INFO 2023-09-22 06:52:38,447 autoreload 9180 9024 Watching for file changes with StatReloader
