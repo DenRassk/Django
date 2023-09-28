@@ -1,0 +1,1200 @@
+INFO 2023-09-27 16:59:27,289 autoreload 16968 17796 Watching for file changes with StatReloader
+WARNING 2023-09-27 16:59:32,054 log 16968 17808 Not Found: /
+WARNING 2023-09-27 16:59:32,056 basehttp 16968 17808 "GET / HTTP/1.1" 404 2261
+WARNING 2023-09-27 16:59:32,283 log 16968 17808 Not Found: /favicon.ico
+WARNING 2023-09-27 16:59:32,284 basehttp 16968 17808 "GET /favicon.ico HTTP/1.1" 404 2312
+INFO 2023-09-27 16:59:50,540 basehttp 16968 17808 "GET /user/orders/ HTTP/1.1" 200 212
+INFO 2023-09-27 18:24:05,513 autoreload 18108 17528 Watching for file changes with StatReloader
+WARNING 2023-09-27 18:24:15,868 log 18108 17320 Not Found: /
+WARNING 2023-09-27 18:24:15,869 basehttp 18108 17320 "GET / HTTP/1.1" 404 2453
+WARNING 2023-09-27 18:24:19,732 log 18108 17320 Not Found: /
+WARNING 2023-09-27 18:24:19,737 basehttp 18108 17320 "GET / HTTP/1.1" 404 2453
+WARNING 2023-09-27 18:24:24,251 log 18108 17320 Not Found: /
+WARNING 2023-09-27 18:24:24,252 basehttp 18108 17320 "GET / HTTP/1.1" 404 2453
+INFO 2023-09-27 18:24:34,252 autoreload 18108 17528 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\urls.py changed, reloading.
+INFO 2023-09-27 18:24:34,928 autoreload 17404 16992 Watching for file changes with StatReloader
+ERROR 2023-09-27 18:24:37,388 log 17404 2064 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py", line 9, in index
+    return render(request,'index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2023-09-27 18:24:37,394 basehttp 17404 2064 "GET / HTTP/1.1" 500 79824
+INFO 2023-09-27 18:26:18,879 autoreload 7464 18404 Watching for file changes with StatReloader
+ERROR 2023-09-27 18:26:24,683 log 7464 10148 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py", line 9, in index
+    return render(request,'index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2023-09-27 18:26:24,688 basehttp 7464 10148 "GET / HTTP/1.1" 500 79824
+INFO 2023-09-27 18:27:50,590 autoreload 15248 14900 Watching for file changes with StatReloader
+ERROR 2023-09-27 18:27:55,400 log 15248 15784 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py", line 9, in index
+    return render(request,'index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2023-09-27 18:27:55,405 basehttp 15248 15784 "GET / HTTP/1.1" 500 79824
+INFO 2023-09-27 18:29:22,358 autoreload 15248 14900 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-27 18:29:23,048 autoreload 16528 17480 Watching for file changes with StatReloader
+INFO 2023-09-27 18:29:26,431 basehttp 16528 752 "GET / HTTP/1.1" 200 118
+INFO 2023-09-27 18:34:38,184 basehttp 16528 12244 "GET / HTTP/1.1" 200 118
+INFO 2023-09-28 10:53:28,409 autoreload 9788 2724 Watching for file changes with StatReloader
+INFO 2023-09-28 10:53:42,193 basehttp 9788 3524 "GET / HTTP/1.1" 200 2469
+WARNING 2023-09-28 10:53:49,592 log 9788 13564 Forbidden (CSRF cookie not set.): /
+WARNING 2023-09-28 10:53:49,593 basehttp 9788 13564 "POST / HTTP/1.1" 403 2870
+WARNING 2023-09-28 10:54:05,126 log 9788 13564 Not Found: /favicon.ico
+WARNING 2023-09-28 10:54:05,126 basehttp 9788 13564 "GET /favicon.ico HTTP/1.1" 404 2503
+INFO 2023-09-28 11:11:54,478 autoreload 17032 4292 Watching for file changes with StatReloader
+INFO 2023-09-28 11:12:02,437 basehttp 17032 17148 "GET / HTTP/1.1" 200 1929
+WARNING 2023-09-28 11:12:08,220 log 17032 17148 Not Found: /user_orders/1
+WARNING 2023-09-28 11:12:08,221 basehttp 17032 17148 "GET /user_orders/1 HTTP/1.1" 404 2509
+INFO 2023-09-28 11:12:54,408 autoreload 3480 3820 Watching for file changes with StatReloader
+INFO 2023-09-28 11:12:58,851 basehttp 3480 14680 "GET / HTTP/1.1" 200 1929
+INFO 2023-09-28 11:33:18,541 autoreload 3480 3820 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 11:33:19,195 autoreload 6808 17000 Watching for file changes with StatReloader
+INFO 2023-09-28 11:34:58,239 autoreload 6808 17000 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\urls.py changed, reloading.
+INFO 2023-09-28 11:34:58,881 autoreload 14108 13936 Watching for file changes with StatReloader
+INFO 2023-09-28 11:37:37,563 autoreload 14108 13936 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 11:37:38,220 autoreload 15844 10204 Watching for file changes with StatReloader
+INFO 2023-09-28 11:38:25,470 autoreload 15844 10204 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 11:38:26,171 autoreload 15552 12976 Watching for file changes with StatReloader
+INFO 2023-09-28 11:38:32,183 basehttp 15552 6784 "GET / HTTP/1.1" 200 1929
+INFO 2023-09-28 11:38:33,170 basehttp 15552 6784 "GET /user/3/orders HTTP/1.1" 301 0
+ERROR 2023-09-28 11:38:33,225 log 15552 13936 Internal Server Error: /user/3/orders/
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py", line 15, in user_order
+    user = User.objects.filer(pk=user_id).first()
+           ^^^^^^^^^^^^^^^^^^
+AttributeError: 'Manager' object has no attribute 'filer'
+ERROR 2023-09-28 11:38:33,229 basehttp 15552 13936 "GET /user/3/orders/ HTTP/1.1" 500 64881
+INFO 2023-09-28 11:39:04,686 autoreload 15552 12976 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 11:39:05,350 autoreload 13556 13096 Watching for file changes with StatReloader
+INFO 2023-09-28 11:39:11,357 basehttp 13556 16780 "GET /user/3/orders/ HTTP/1.1" 200 212
+INFO 2023-09-28 11:44:41,398 autoreload 13556 13096 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 11:44:42,082 autoreload 1560 6944 Watching for file changes with StatReloader
+INFO 2023-09-28 11:52:33,735 autoreload 1560 6944 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\urls.py changed, reloading.
+INFO 2023-09-28 11:52:34,416 autoreload 16720 9204 Watching for file changes with StatReloader
+INFO 2023-09-28 11:59:09,552 autoreload 16720 9204 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 11:59:10,252 autoreload 2360 17216 Watching for file changes with StatReloader
+INFO 2023-09-28 12:08:13,398 autoreload 2360 17216 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 12:08:14,070 autoreload 18092 18096 Watching for file changes with StatReloader
+INFO 2023-09-28 12:09:02,580 autoreload 18092 18096 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 12:09:03,241 autoreload 14888 1784 Watching for file changes with StatReloader
+INFO 2023-09-28 12:16:04,710 autoreload 14888 1784 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 12:16:05,666 autoreload 17684 17632 Watching for file changes with StatReloader
+INFO 2023-09-28 12:19:10,340 autoreload 17684 17632 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 12:19:10,992 autoreload 16576 18280 Watching for file changes with StatReloader
+INFO 2023-09-28 12:30:07,671 autoreload 16576 18280 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 12:30:08,365 autoreload 17728 8680 Watching for file changes with StatReloader
+INFO 2023-09-28 12:34:00,064 autoreload 17728 8680 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 12:34:00,722 autoreload 16276 13840 Watching for file changes with StatReloader
+INFO 2023-09-28 12:34:06,909 basehttp 16276 8120 "GET /user/3/orders/ HTTP/1.1" 200 1116
+WARNING 2023-09-28 12:34:18,830 log 16276 8120 Not Found: /user/3/orders/user/None/orders/400
+WARNING 2023-09-28 12:34:18,831 basehttp 16276 8120 "GET /user/3/orders/user/None/orders/400 HTTP/1.1" 404 2852
+INFO 2023-09-28 12:35:27,293 basehttp 16276 8120 "GET /user/3/orders/ HTTP/1.1" 200 1099
+ERROR 2023-09-28 12:35:30,494 log 16276 8120 Internal Server Error: /user/3/orders/7
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py", line 30, in user_order_range
+    orders = Order.objects.filter(customer=user_id, date_ordered__gte=datetime.today() - range)
+                                                                      ~~~~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'int'
+ERROR 2023-09-28 12:35:30,500 basehttp 16276 8120 "GET /user/3/orders/7 HTTP/1.1" 500 65868
+INFO 2023-09-28 12:38:21,267 autoreload 16276 13840 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 12:38:21,937 autoreload 2900 16580 Watching for file changes with StatReloader
+ERROR 2023-09-28 12:38:34,543 log 2900 10332 Internal Server Error: /user/3/orders/7
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py", line 31, in user_order_range
+    Order.objects.filter(date_ordered__gte=datetime.today() - range))
+                                           ~~~~~~~~~~~~~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'int'
+ERROR 2023-09-28 12:38:34,546 basehttp 2900 10332 "GET /user/3/orders/7 HTTP/1.1" 500 65826
+INFO 2023-09-28 12:44:22,752 autoreload 2900 16580 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 12:44:23,405 autoreload 17620 18400 Watching for file changes with StatReloader
+ERROR 2023-09-28 12:44:33,614 log 17620 18008 Internal Server Error: /user/3/orders/7
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py", line 31, in user_order_range
+    Order.objects.filter(date_ordered__gte=timedelta(range*(-1))))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\__init__.py", line 1546, in to_python
+    parsed = parse_datetime(value)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR 2023-09-28 12:44:33,628 basehttp 17620 18008 "GET /user/3/orders/7 HTTP/1.1" 500 140488
+ERROR 2023-09-28 12:44:36,677 log 17620 18008 Internal Server Error: /user/3/orders/7
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py", line 31, in user_order_range
+    Order.objects.filter(date_ordered__gte=timedelta(range*(-1))))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\__init__.py", line 1546, in to_python
+    parsed = parse_datetime(value)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR 2023-09-28 12:44:36,687 basehttp 17620 18008 "GET /user/3/orders/7 HTTP/1.1" 500 140351
+INFO 2023-09-28 12:46:34,137 autoreload 17620 18400 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 12:46:34,778 autoreload 16436 1876 Watching for file changes with StatReloader
+ERROR 2023-09-28 12:46:41,767 log 16436 17496 Internal Server Error: /user/3/orders/7
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py", line 31, in user_order_range
+    Order.objects.filter(date_ordered__gte=timedelta(days=-range)))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\__init__.py", line 1546, in to_python
+    parsed = parse_datetime(value)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR 2023-09-28 12:46:41,781 basehttp 16436 17496 "GET /user/3/orders/7 HTTP/1.1" 500 140492
+WARNING 2023-09-28 12:46:44,591 log 16436 17496 Not Found: /user/3/orders/user/None/orders/30
+WARNING 2023-09-28 12:46:44,592 basehttp 16436 17496 "GET /user/3/orders/user/None/orders/30 HTTP/1.1" 404 2849
+ERROR 2023-09-28 12:46:50,398 log 16436 17496 Internal Server Error: /user/3/orders/7
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py", line 31, in user_order_range
+    Order.objects.filter(date_ordered__gte=timedelta(days=-range)))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\__init__.py", line 1546, in to_python
+    parsed = parse_datetime(value)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR 2023-09-28 12:46:50,408 basehttp 16436 17496 "GET /user/3/orders/7 HTTP/1.1" 500 140355
+WARNING 2023-09-28 12:46:55,673 log 16436 17496 Not Found: /user/3/orders/user/None/orders/30
+WARNING 2023-09-28 12:46:55,674 basehttp 16436 17496 "GET /user/3/orders/user/None/orders/30 HTTP/1.1" 404 2849
+WARNING 2023-09-28 12:47:06,081 log 16436 17496 Not Found: /user/3/orders/user/None/orders/365
+WARNING 2023-09-28 12:47:06,082 basehttp 16436 17496 "GET /user/3/orders/user/None/orders/365 HTTP/1.1" 404 2852
+ERROR 2023-09-28 12:47:08,729 log 16436 17496 Internal Server Error: /user/3/orders/7
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py", line 31, in user_order_range
+    Order.objects.filter(date_ordered__gte=timedelta(days=-range)))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\__init__.py", line 1546, in to_python
+    parsed = parse_datetime(value)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR 2023-09-28 12:47:08,739 basehttp 16436 17496 "GET /user/3/orders/7 HTTP/1.1" 500 140355
+INFO 2023-09-28 12:48:00,515 autoreload 16436 1876 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 12:48:01,181 autoreload 17836 14512 Watching for file changes with StatReloader
+INFO 2023-09-28 12:51:41,278 autoreload 17836 14512 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 12:51:41,932 autoreload 16652 16568 Watching for file changes with StatReloader
+INFO 2023-09-28 12:51:48,270 basehttp 16652 17932 "GET /user/3/orders/7 HTTP/1.1" 200 276
+INFO 2023-09-28 12:52:38,430 autoreload 16652 16568 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 12:52:39,088 autoreload 13532 13840 Watching for file changes with StatReloader
+INFO 2023-09-28 12:53:24,514 autoreload 13532 13840 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 12:53:25,151 autoreload 9988 18336 Watching for file changes with StatReloader
+INFO 2023-09-28 12:53:53,319 autoreload 9988 18336 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 12:53:53,976 autoreload 17444 4436 Watching for file changes with StatReloader
+INFO 2023-09-28 12:54:04,018 basehttp 17444 18340 "GET /user/3/orders/7 HTTP/1.1" 200 276
+INFO 2023-09-28 12:54:06,271 basehttp 17444 18340 "GET /user/3/orders/7 HTTP/1.1" 200 276
+INFO 2023-09-28 12:54:06,834 basehttp 17444 18340 "GET /user/3/orders/7 HTTP/1.1" 200 276
+INFO 2023-09-28 12:54:07,001 basehttp 17444 18340 "GET /user/3/orders/7 HTTP/1.1" 200 276
+INFO 2023-09-28 12:54:07,164 basehttp 17444 18340 "GET /user/3/orders/7 HTTP/1.1" 200 276
+INFO 2023-09-28 12:54:07,313 basehttp 17444 18340 "GET /user/3/orders/7 HTTP/1.1" 200 276
+INFO 2023-09-28 12:54:07,462 basehttp 17444 18340 "GET /user/3/orders/7 HTTP/1.1" 200 276
+INFO 2023-09-28 12:54:15,115 autoreload 17644 8504 Watching for file changes with StatReloader
+WARNING 2023-09-28 12:54:19,827 log 17644 17496 Not Found: /user/3/orders/user/None/orders/30
+WARNING 2023-09-28 12:54:19,828 basehttp 17644 17496 "GET /user/3/orders/user/None/orders/30 HTTP/1.1" 404 2849
+WARNING 2023-09-28 12:54:23,177 log 17644 17496 Not Found: /user/3/orders/user/None/orders/365
+WARNING 2023-09-28 12:54:23,178 basehttp 17644 17496 "GET /user/3/orders/user/None/orders/365 HTTP/1.1" 404 2852
+WARNING 2023-09-28 12:54:25,427 log 17644 17496 Not Found: /user/3/orders/user/None/orders/400
+WARNING 2023-09-28 12:54:25,428 basehttp 17644 17496 "GET /user/3/orders/user/None/orders/400 HTTP/1.1" 404 2852
+INFO 2023-09-28 12:57:16,752 autoreload 17000 17236 Watching for file changes with StatReloader
+INFO 2023-09-28 12:57:22,113 basehttp 17000 4672 "GET /user/3/orders/ HTTP/1.1" 200 1062
+INFO 2023-09-28 12:57:23,215 basehttp 17000 4672 "GET /user/3/orders/ HTTP/1.1" 200 1062
+INFO 2023-09-28 12:57:23,647 basehttp 17000 4672 "GET /user/3/orders/ HTTP/1.1" 200 1062
+INFO 2023-09-28 12:57:24,035 basehttp 17000 4672 "GET /user/3/orders/ HTTP/1.1" 200 1062
+INFO 2023-09-28 12:57:24,468 basehttp 17000 4672 "GET /user/3/orders/ HTTP/1.1" 200 1062
+INFO 2023-09-28 12:57:24,728 basehttp 17000 4672 "GET /user/3/orders/ HTTP/1.1" 200 1062
+INFO 2023-09-28 12:57:24,946 basehttp 17000 4672 "GET /user/3/orders/ HTTP/1.1" 200 1062
+INFO 2023-09-28 12:57:35,903 basehttp 17000 4672 "GET / HTTP/1.1" 200 1929
+INFO 2023-09-28 12:57:39,562 basehttp 17000 4672 "GET /user/2/orders HTTP/1.1" 301 0
+INFO 2023-09-28 12:57:39,569 basehttp 17000 16632 "GET /user/2/orders/ HTTP/1.1" 200 1062
+INFO 2023-09-28 12:57:51,045 basehttp 17000 16632 "GET /user/2/orders/400 HTTP/1.1" 200 220
+INFO 2023-09-28 12:57:58,564 basehttp 17000 16632 "GET /user/2/orders/30 HTTP/1.1" 200 278
+INFO 2023-09-28 12:58:01,486 basehttp 17000 16632 "GET /user/2/orders/365 HTTP/1.1" 200 280
+INFO 2023-09-28 13:01:38,023 basehttp 17000 16632 "GET /user/3/orders/ HTTP/1.1" 200 1062
+INFO 2023-09-28 13:03:27,542 autoreload 17000 17236 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 13:03:28,194 autoreload 18416 2828 Watching for file changes with StatReloader
+INFO 2023-09-28 13:03:49,753 autoreload 18416 2828 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 13:03:50,398 autoreload 16396 2360 Watching for file changes with StatReloader
+INFO 2023-09-28 13:06:50,406 autoreload 16396 2360 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 13:06:51,054 autoreload 17412 16600 Watching for file changes with StatReloader
+INFO 2023-09-28 13:07:02,831 basehttp 17412 17188 "GET /user/1/orders HTTP/1.1" 301 0
+INFO 2023-09-28 13:07:02,849 basehttp 17412 2836 "GET /user/1/orders/ HTTP/1.1" 200 1062
+INFO 2023-09-28 13:07:04,571 basehttp 17412 2836 "GET /user/1/orders/400 HTTP/1.1" 200 220
+INFO 2023-09-28 13:07:07,041 basehttp 17412 2836 "GET /user/1/orders/365 HTTP/1.1" 200 268
+INFO 2023-09-28 13:07:11,037 basehttp 17412 2836 "GET /user/1/orders/30 HTTP/1.1" 200 278
+INFO 2023-09-28 13:07:13,966 basehttp 17412 2836 "GET /user/1/orders/7 HTTP/1.1" 200 276
+INFO 2023-09-28 13:08:38,457 autoreload 18056 14512 Watching for file changes with StatReloader
+INFO 2023-09-28 13:08:44,856 basehttp 18056 15588 "GET /user/4/orders HTTP/1.1" 301 0
+INFO 2023-09-28 13:08:44,866 basehttp 18056 1264 "GET /user/4/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 13:08:59,079 basehttp 18056 1264 "GET /user/4/orders/7 HTTP/1.1" 200 276
+INFO 2023-09-28 13:14:25,275 autoreload 6720 17952 Watching for file changes with StatReloader
+INFO 2023-09-28 13:14:30,974 basehttp 6720 9984 "GET /user/4/orders/7 HTTP/1.1" 200 295
+INFO 2023-09-28 13:20:47,671 autoreload 18344 5064 Watching for file changes with StatReloader
+INFO 2023-09-28 13:20:49,292 basehttp 18344 17444 "GET / HTTP/1.1" 200 1929
+INFO 2023-09-28 13:20:51,181 basehttp 18344 17444 "GET /user/3/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 13:20:52,290 basehttp 18344 17444 "GET /user/3/orders/30 HTTP/1.1" 200 324
+INFO 2023-09-28 13:20:55,260 basehttp 18344 17444 "GET /user/3/orders/7 HTTP/1.1" 200 322
+INFO 2023-09-28 13:20:57,473 basehttp 18344 17444 "GET /user/3/orders/400 HTTP/1.1" 200 957
+INFO 2023-09-28 13:21:06,821 basehttp 18344 17444 "GET /user/3/orders/400 HTTP/1.1" 200 957
+INFO 2023-09-28 13:21:21,203 basehttp 18344 17444 "GET /user/3/orders/30 HTTP/1.1" 200 324
+INFO 2023-09-28 13:21:26,727 basehttp 18344 17444 "GET /user/3/orders/7 HTTP/1.1" 200 322
+INFO 2023-09-28 13:29:28,831 autoreload 8260 14484 Watching for file changes with StatReloader
+INFO 2023-09-28 13:29:36,310 basehttp 8260 16496 "GET / HTTP/1.1" 200 1929
+INFO 2023-09-28 13:29:38,762 basehttp 8260 16496 "GET /user/1/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 13:29:40,636 basehttp 8260 16496 "GET /user/1/orders/30 HTTP/1.1" 200 1495
+INFO 2023-09-28 13:29:47,909 basehttp 8260 16496 "GET /user/1/orders/7 HTTP/1.1" 200 1493
+INFO 2023-09-28 13:29:50,914 basehttp 8260 16496 "GET /user/1/orders/400 HTTP/1.1" 200 965
+INFO 2023-09-28 13:30:00,713 basehttp 8260 16496 "GET /user/4/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 13:30:02,411 basehttp 8260 16496 "GET /user/4/orders/30 HTTP/1.1" 200 1495
+INFO 2023-09-28 13:31:09,143 basehttp 8260 16496 "GET /user/4/orders/7 HTTP/1.1" 200 1493
+INFO 2023-09-28 13:31:11,902 basehttp 8260 16496 "GET /user/4/orders/30 HTTP/1.1" 200 1495
+INFO 2023-09-28 13:31:14,262 basehttp 8260 16496 "GET /user/4/orders/365 HTTP/1.1" 200 1485
+INFO 2023-09-28 13:31:16,791 basehttp 8260 16496 "GET /user/4/orders/400 HTTP/1.1" 200 853
+INFO 2023-09-28 13:31:24,245 basehttp 8260 16496 "GET /user/4/orders/30 HTTP/1.1" 200 1495
+INFO 2023-09-28 13:31:56,313 basehttp 8260 16496 "GET /user/3/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 13:31:57,196 basehttp 8260 16496 "GET /user/3/orders/30 HTTP/1.1" 200 1495
+INFO 2023-09-28 13:31:59,258 basehttp 8260 16496 "GET /user/3/orders/365 HTTP/1.1" 200 1485
+INFO 2023-09-28 13:32:16,845 basehttp 8260 16496 "GET /user/3/orders/7 HTTP/1.1" 200 1493
+INFO 2023-09-28 13:32:28,709 basehttp 8260 16496 "GET /user/3/orders/30 HTTP/1.1" 200 1495
+INFO 2023-09-28 13:32:37,315 basehttp 8260 16496 "GET /user/3/orders/365 HTTP/1.1" 200 1485
+INFO 2023-09-28 13:32:42,583 basehttp 8260 16496 "GET /user/3/orders/400 HTTP/1.1" 200 852
+INFO 2023-09-28 13:33:39,485 autoreload 8260 14484 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 13:33:40,138 autoreload 16020 1920 Watching for file changes with StatReloader
+INFO 2023-09-28 13:33:46,681 basehttp 16020 12912 "GET /user/3/orders/7 HTTP/1.1" 200 1493
+INFO 2023-09-28 13:33:48,991 basehttp 16020 12912 "GET /user/3/orders/30 HTTP/1.1" 200 1495
+INFO 2023-09-28 13:33:51,160 basehttp 16020 12912 "GET /user/3/orders/365 HTTP/1.1" 200 1485
+INFO 2023-09-28 13:33:53,215 basehttp 16020 12912 "GET /user/3/orders/400 HTTP/1.1" 200 852
+INFO 2023-09-28 13:33:58,795 basehttp 16020 12912 "GET /user/3/orders/400 HTTP/1.1" 200 852
+INFO 2023-09-28 13:35:54,753 autoreload 17400 3860 Watching for file changes with StatReloader
+INFO 2023-09-28 13:35:58,688 basehttp 17400 17200 "GET /user/3/orders/30 HTTP/1.1" 200 1495
+INFO 2023-09-28 13:36:01,185 basehttp 17400 17200 "GET /user/3/orders/7 HTTP/1.1" 200 1493
+INFO 2023-09-28 13:36:02,768 basehttp 17400 17200 "GET /user/3/orders/400 HTTP/1.1" 200 852
+INFO 2023-09-28 13:47:39,415 basehttp 17400 17124 "GET /user/3/orders/7 HTTP/1.1" 200 1493
+INFO 2023-09-28 13:48:21,621 basehttp 17400 17124 "GET /user/3/orders/400 HTTP/1.1" 200 852
+INFO 2023-09-28 13:49:20,267 basehttp 17400 17124 "GET /user/3/orders/7 HTTP/1.1" 200 1493
+INFO 2023-09-28 13:51:20,887 autoreload 17400 3860 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 13:51:21,562 autoreload 3912 5404 Watching for file changes with StatReloader
+INFO 2023-09-28 13:51:30,007 basehttp 3912 17960 "GET /user/2/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 13:51:31,231 basehttp 3912 17960 "GET /user/2/orders/7 HTTP/1.1" 200 1493
+INFO 2023-09-28 13:51:34,872 basehttp 3912 17960 "GET /user/2/orders/365 HTTP/1.1" 200 1485
+INFO 2023-09-28 13:51:37,320 basehttp 3912 17960 "GET /user/2/orders/400 HTTP/1.1" 200 871
+INFO 2023-09-28 13:51:53,411 basehttp 3912 17960 "GET /user/1/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 13:51:54,572 basehttp 3912 17960 "GET /user/1/orders/400 HTTP/1.1" 200 965
+INFO 2023-09-28 13:51:59,559 basehttp 3912 17960 "GET /user/2/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 13:52:00,747 basehttp 3912 17960 "GET /user/2/orders/400 HTTP/1.1" 200 871
+INFO 2023-09-28 13:52:11,171 basehttp 3912 17960 "GET /user/3/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 13:52:12,124 basehttp 3912 17960 "GET /user/3/orders/400 HTTP/1.1" 200 852
+INFO 2023-09-28 13:52:17,615 basehttp 3912 17960 "GET /user/4/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 13:52:18,861 basehttp 3912 17960 "GET /user/4/orders/400 HTTP/1.1" 200 853
+INFO 2023-09-28 13:52:24,341 basehttp 3912 17960 "GET /user/2/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 13:52:25,091 basehttp 3912 17960 "GET /user/2/orders/400 HTTP/1.1" 200 871
+INFO 2023-09-28 13:53:05,676 basehttp 3912 17960 "GET /user/1/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 13:53:07,132 basehttp 3912 17960 "GET /user/1/orders/400 HTTP/1.1" 200 965
+INFO 2023-09-28 13:53:38,853 autoreload 3912 5404 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 13:53:39,529 autoreload 15588 14080 Watching for file changes with StatReloader
+INFO 2023-09-28 13:53:43,898 basehttp 15588 3020 "GET /user/1/orders/7 HTTP/1.1" 200 1021
+INFO 2023-09-28 13:53:47,799 basehttp 15588 3020 "GET /user/1/orders/30 HTTP/1.1" 200 1023
+INFO 2023-09-28 13:53:50,473 basehttp 15588 3020 "GET /user/1/orders/365 HTTP/1.1" 200 1013
+INFO 2023-09-28 13:53:52,571 basehttp 15588 3020 "GET /user/1/orders/400 HTTP/1.1" 200 965
+INFO 2023-09-28 13:54:03,594 basehttp 15588 3020 "GET /user/2/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 13:54:04,310 basehttp 15588 3020 "GET /user/2/orders/7 HTTP/1.1" 200 927
+INFO 2023-09-28 13:54:08,594 basehttp 15588 3020 "GET /user/2/orders/30 HTTP/1.1" 200 929
+INFO 2023-09-28 13:54:10,537 basehttp 15588 3020 "GET /user/2/orders/365 HTTP/1.1" 200 919
+INFO 2023-09-28 13:54:13,461 basehttp 15588 3020 "GET /user/2/orders/400 HTTP/1.1" 200 871
+INFO 2023-09-28 13:55:15,629 autoreload 15588 14080 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 13:55:16,298 autoreload 4672 17224 Watching for file changes with StatReloader
+INFO 2023-09-28 13:56:00,122 autoreload 4672 17224 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 13:56:00,791 autoreload 2424 14716 Watching for file changes with StatReloader
+ERROR 2023-09-28 13:56:08,083 log 2424 16720 Internal Server Error: /user/2/orders/7
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py", line 31, in user_order_range
+    orders = orders.objects.filter(date_ordered__gte=datetime.now()-timedelta(days=int(range)))
+             ^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'objects'
+ERROR 2023-09-28 13:56:08,087 basehttp 2424 16720 "GET /user/2/orders/7 HTTP/1.1" 500 66470
+INFO 2023-09-28 13:57:32,768 autoreload 2424 14716 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 13:57:33,419 autoreload 6644 16588 Watching for file changes with StatReloader
+ERROR 2023-09-28 13:57:38,975 log 6644 13736 Internal Server Error: /user/2/orders/7
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py", line 31, in user_order_range
+    orders1 = orders.objects.filter(date_ordered__gte=datetime.now()-timedelta(days=int(range)))
+              ^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'objects'
+ERROR 2023-09-28 13:57:38,978 basehttp 6644 13736 "GET /user/2/orders/7 HTTP/1.1" 500 66611
+INFO 2023-09-28 13:59:28,890 autoreload 6644 16588 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 13:59:29,544 autoreload 9408 17108 Watching for file changes with StatReloader
+INFO 2023-09-28 14:00:24,621 autoreload 9408 17108 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 14:00:25,261 autoreload 18348 940 Watching for file changes with StatReloader
+INFO 2023-09-28 14:01:49,307 autoreload 18348 940 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 14:01:49,939 autoreload 14148 12944 Watching for file changes with StatReloader
+INFO 2023-09-28 14:01:54,052 basehttp 14148 888 "GET /user/2/orders/ HTTP/1.1" 200 1101
+ERROR 2023-09-28 14:01:55,501 log 14148 888 Internal Server Error: /user/2/orders/7
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: user_order_range() got an unexpected keyword argument 'range'
+ERROR 2023-09-28 14:01:55,504 basehttp 14148 888 "GET /user/2/orders/7 HTTP/1.1" 500 61440
+INFO 2023-09-28 14:02:40,330 autoreload 14148 12944 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 14:02:40,986 autoreload 17000 18424 Watching for file changes with StatReloader
+ERROR 2023-09-28 14:02:43,979 log 17000 16500 Internal Server Error: /user/2/orders/7
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: user_order_range() got an unexpected keyword argument 'range'
+ERROR 2023-09-28 14:02:43,982 basehttp 17000 16500 "GET /user/2/orders/7 HTTP/1.1" 500 61440
+INFO 2023-09-28 14:02:49,057 basehttp 17000 16500 "GET /user/2/orders/ HTTP/1.1" 200 1101
+ERROR 2023-09-28 14:02:51,091 log 17000 16500 Internal Server Error: /user/2/orders/7
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: user_order_range() got an unexpected keyword argument 'range'
+ERROR 2023-09-28 14:02:51,093 basehttp 17000 16500 "GET /user/2/orders/7 HTTP/1.1" 500 61440
+ERROR 2023-09-28 14:03:00,411 log 17000 16500 Internal Server Error: /user/2/orders/400
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: user_order_range() got an unexpected keyword argument 'range'
+ERROR 2023-09-28 14:03:00,413 basehttp 17000 16500 "GET /user/2/orders/400 HTTP/1.1" 500 61460
+INFO 2023-09-28 14:03:30,257 autoreload 17000 18424 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 14:03:30,941 autoreload 5036 17064 Watching for file changes with StatReloader
+ERROR 2023-09-28 14:03:33,459 log 5036 3920 Internal Server Error: /user/2/orders/400
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: user_order_range() got an unexpected keyword argument 'range'
+ERROR 2023-09-28 14:03:33,462 basehttp 5036 3920 "GET /user/2/orders/400 HTTP/1.1" 500 61597
+ERROR 2023-09-28 14:03:36,946 log 5036 3920 Internal Server Error: /user/2/orders/7
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: user_order_range() got an unexpected keyword argument 'range'
+ERROR 2023-09-28 14:03:36,948 basehttp 5036 3920 "GET /user/2/orders/7 HTTP/1.1" 500 61440
+INFO 2023-09-28 14:04:51,234 autoreload 4736 17268 Watching for file changes with StatReloader
+INFO 2023-09-28 14:04:54,338 basehttp 4736 16800 "GET / HTTP/1.1" 200 1929
+INFO 2023-09-28 14:04:56,195 basehttp 4736 16800 "GET /user/3/orders/ HTTP/1.1" 200 1101
+ERROR 2023-09-28 14:04:57,576 log 4736 16800 Internal Server Error: /user/3/orders/30
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py", line 31, in user_order_range
+    orders = orders.objects.filter(date_ordered__gte=datetime.now()-timedelta(days=int(range_)))
+             ^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'objects'
+ERROR 2023-09-28 14:04:57,579 basehttp 4736 16800 "GET /user/3/orders/30 HTTP/1.1" 500 66410
+INFO 2023-09-28 14:08:53,053 autoreload 4736 17268 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 14:08:53,701 autoreload 7752 16580 Watching for file changes with StatReloader
+INFO 2023-09-28 14:08:59,114 autoreload 16572 13856 Watching for file changes with StatReloader
+INFO 2023-09-28 14:09:05,627 basehttp 16572 5036 "GET / HTTP/1.1" 200 1929
+INFO 2023-09-28 14:09:07,782 basehttp 16572 5036 "GET /user/3/orders/ HTTP/1.1" 200 1101
+ERROR 2023-09-28 14:09:09,074 log 16572 5036 Internal Server Error: /user/3/orders/7
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py", line 38, in user_order_range
+    'user_name': user.name,
+                 ^^^^
+UnboundLocalError: cannot access local variable 'user' where it is not associated with a value
+ERROR 2023-09-28 14:09:09,077 basehttp 16572 5036 "GET /user/3/orders/7 HTTP/1.1" 500 66166
+INFO 2023-09-28 14:10:57,251 autoreload 13480 12944 Watching for file changes with StatReloader
+INFO 2023-09-28 14:11:00,785 basehttp 13480 17832 "GET / HTTP/1.1" 200 1929
+INFO 2023-09-28 14:11:02,506 basehttp 13480 17832 "GET /user/3/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 14:11:03,513 basehttp 13480 17832 "GET /user/3/orders/7 HTTP/1.1" 200 558
+INFO 2023-09-28 14:11:08,286 basehttp 13480 17832 "GET /user/3/orders/30 HTTP/1.1" 200 560
+INFO 2023-09-28 14:11:12,120 basehttp 13480 17832 "GET /user/3/orders/365 HTTP/1.1" 200 550
+INFO 2023-09-28 14:11:15,166 basehttp 13480 17832 "GET /user/3/orders/400 HTTP/1.1" 200 562
+INFO 2023-09-28 14:11:23,026 basehttp 13480 17832 "GET /user/2/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 14:11:25,788 basehttp 13480 17832 "GET /user/2/orders/30 HTTP/1.1" 200 697
+INFO 2023-09-28 14:11:28,997 basehttp 13480 17832 "GET /user/2/orders/7 HTTP/1.1" 200 695
+INFO 2023-09-28 14:11:33,019 basehttp 13480 17832 "GET /user/2/orders/400 HTTP/1.1" 200 699
+INFO 2023-09-28 14:11:35,256 basehttp 13480 17832 "GET /user/2/orders/30 HTTP/1.1" 200 697
+INFO 2023-09-28 14:12:10,394 autoreload 15492 14208 Watching for file changes with StatReloader
+INFO 2023-09-28 14:12:12,538 basehttp 15492 2828 "GET / HTTP/1.1" 200 1929
+INFO 2023-09-28 14:12:14,329 basehttp 15492 2828 "GET /user/1/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 14:12:15,866 basehttp 15492 2828 "GET /user/1/orders/30 HTTP/1.1" 200 675
+INFO 2023-09-28 14:12:20,529 basehttp 15492 2828 "GET /user/1/orders/30 HTTP/1.1" 200 675
+INFO 2023-09-28 14:20:44,733 autoreload 5676 18116 Watching for file changes with StatReloader
+INFO 2023-09-28 14:20:46,095 basehttp 5676 15196 "GET / HTTP/1.1" 200 1929
+INFO 2023-09-28 14:20:48,515 basehttp 5676 15196 "GET /user/1/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 14:20:49,999 basehttp 5676 15196 "GET /user/1/orders/7 HTTP/1.1" 200 673
+INFO 2023-09-28 14:21:33,344 basehttp 5676 15196 "GET /user/1/orders/30 HTTP/1.1" 200 675
+INFO 2023-09-28 14:21:36,236 basehttp 5676 15196 "GET /user/1/orders/365 HTTP/1.1" 200 665
+INFO 2023-09-28 14:21:38,725 basehttp 5676 15196 "GET /user/1/orders/400 HTTP/1.1" 200 677
+INFO 2023-09-28 14:21:42,733 basehttp 5676 15196 "GET /user/2/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 14:21:43,878 basehttp 5676 15196 "GET /user/2/orders/7 HTTP/1.1" 200 695
+INFO 2023-09-28 14:23:00,928 basehttp 5676 15196 "GET /user/2/orders/400 HTTP/1.1" 200 699
+INFO 2023-09-28 14:24:14,505 autoreload 5676 18116 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 14:24:15,173 autoreload 15156 16588 Watching for file changes with StatReloader
+INFO 2023-09-28 14:24:21,147 basehttp 15156 16488 "GET / HTTP/1.1" 200 1969
+INFO 2023-09-28 14:24:24,297 basehttp 15156 16488 "GET /user/1/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 14:24:25,633 basehttp 15156 16488 "GET /user/1/orders/7 HTTP/1.1" 200 673
+INFO 2023-09-28 14:25:17,555 autoreload 8212 16648 Watching for file changes with StatReloader
+INFO 2023-09-28 14:25:19,692 basehttp 8212 18132 "GET / HTTP/1.1" 200 2657
+INFO 2023-09-28 14:25:26,418 basehttp 8212 18132 "GET /user/6/orders HTTP/1.1" 301 0
+INFO 2023-09-28 14:25:26,427 basehttp 8212 1060 "GET /user/6/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 14:25:27,778 basehttp 8212 1060 "GET /user/6/orders/7 HTTP/1.1" 200 323
+INFO 2023-09-28 14:25:30,483 basehttp 8212 1060 "GET /user/6/orders/400 HTTP/1.1" 200 327
+INFO 2023-09-28 14:25:33,405 basehttp 8212 1060 "GET /user/6/orders/30 HTTP/1.1" 200 325
+INFO 2023-09-28 14:25:35,578 basehttp 8212 1060 "GET /user/6/orders/365 HTTP/1.1" 200 315
+INFO 2023-09-28 14:25:39,402 basehttp 8212 1060 "GET /user/2/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 14:25:40,563 basehttp 8212 1060 "GET /user/2/orders/400 HTTP/1.1" 200 974
+INFO 2023-09-28 14:25:49,670 basehttp 8212 1060 "GET /user/1/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 14:25:50,903 basehttp 8212 1060 "GET /user/1/orders/7 HTTP/1.1" 200 947
+INFO 2023-09-28 14:50:56,409 autoreload 17296 13504 Watching for file changes with StatReloader
+INFO 2023-09-28 14:51:02,398 basehttp 17296 17944 "GET / HTTP/1.1" 200 1969
+INFO 2023-09-28 14:51:04,155 basehttp 17296 17944 "GET /user/1/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 14:51:05,565 basehttp 17296 17944 "GET /user/1/orders/7 HTTP/1.1" 200 972
+INFO 2023-09-28 14:51:09,203 basehttp 17296 17944 "GET /user/1/orders/30 HTTP/1.1" 200 973
+INFO 2023-09-28 14:51:11,974 basehttp 17296 17944 "GET /user/1/orders/400 HTTP/1.1" 200 975
+INFO 2023-09-28 14:51:15,019 basehttp 17296 17944 "GET /user/1/orders/365 HTTP/1.1" 200 964
+INFO 2023-09-28 14:51:37,408 basehttp 17296 17944 "GET /user/1/orders/365 HTTP/1.1" 200 964
+INFO 2023-09-28 14:51:44,066 basehttp 17296 17944 "GET /user/1/orders/7 HTTP/1.1" 200 972
+INFO 2023-09-28 14:51:46,806 basehttp 17296 17944 "GET /user/1/orders/30 HTTP/1.1" 200 973
+INFO 2023-09-28 14:51:49,979 basehttp 17296 17944 "GET /user/1/orders/365 HTTP/1.1" 200 964
+INFO 2023-09-28 14:51:53,984 basehttp 17296 17944 "GET /user/1/orders/400 HTTP/1.1" 200 975
+INFO 2023-09-28 14:54:26,902 autoreload 17296 13504 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 14:54:27,551 autoreload 16484 16308 Watching for file changes with StatReloader
+INFO 2023-09-28 15:05:59,666 autoreload 16492 11892 Watching for file changes with StatReloader
+INFO 2023-09-28 15:06:01,562 basehttp 16492 16144 "GET / HTTP/1.1" 200 1969
+INFO 2023-09-28 15:06:03,598 basehttp 16492 16144 "GET /user/1/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 15:06:05,031 basehttp 16492 16144 "GET /user/1/orders/7 HTTP/1.1" 200 810
+INFO 2023-09-28 15:06:08,903 basehttp 16492 16144 "GET /user/1/orders/400 HTTP/1.1" 200 814
+INFO 2023-09-28 15:06:15,175 basehttp 16492 16144 "GET /user/1/orders/365 HTTP/1.1" 200 802
+INFO 2023-09-28 15:23:12,654 autoreload 16492 11892 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 15:23:13,323 autoreload 15572 17432 Watching for file changes with StatReloader
+INFO 2023-09-28 15:24:36,137 autoreload 15572 17432 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 15:24:36,797 autoreload 8276 10196 Watching for file changes with StatReloader
+ERROR 2023-09-28 15:24:49,134 log 8276 16852 Internal Server Error: /user/1/orders/7
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py", line 32, in user_order_range
+    before = now - timedelta(days=days_ago)
+                                  ^^^^^^^^
+NameError: name 'days_ago' is not defined
+ERROR 2023-09-28 15:24:49,138 basehttp 8276 16852 "GET /user/1/orders/7 HTTP/1.1" 500 66016
+INFO 2023-09-28 15:25:13,116 autoreload 8276 10196 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 15:25:13,779 autoreload 3224 17928 Watching for file changes with StatReloader
+ERROR 2023-09-28 15:25:17,684 log 3224 17200 Internal Server Error: /user/1/orders/7
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py", line 33, in user_order_range
+    orders = Order.objects.filter(customer=user_id, date_ordered=(before, now)).all()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\__init__.py", line 1546, in to_python
+    parsed = parse_datetime(value)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR 2023-09-28 15:25:17,697 basehttp 3224 17200 "GET /user/1/orders/7 HTTP/1.1" 500 145527
+INFO 2023-09-28 15:27:06,533 autoreload 3224 17928 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 15:27:07,197 autoreload 15588 8348 Watching for file changes with StatReloader
+ERROR 2023-09-28 15:27:15,558 log 15588 16276 Internal Server Error: /user/1/orders/7
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py", line 33, in user_order_range
+    orders = Order.objects.filter(customer=user_id, date_ordered=(before, now))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\__init__.py", line 1546, in to_python
+    parsed = parse_datetime(value)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR 2023-09-28 15:27:15,571 basehttp 15588 16276 "GET /user/1/orders/7 HTTP/1.1" 500 145515
+ERROR 2023-09-28 15:27:18,455 log 15588 16276 Internal Server Error: /user/1/orders/400
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py", line 33, in user_order_range
+    orders = Order.objects.filter(customer=user_id, date_ordered=(before, now))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\__init__.py", line 1546, in to_python
+    parsed = parse_datetime(value)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR 2023-09-28 15:27:18,464 basehttp 15588 16276 "GET /user/1/orders/400 HTTP/1.1" 500 145402
+INFO 2023-09-28 15:28:57,353 autoreload 15588 8348 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 15:28:58,003 autoreload 18428 5512 Watching for file changes with StatReloader
+INFO 2023-09-28 15:29:05,072 basehttp 18428 16512 "GET /user/1/orders/7 HTTP/1.1" 200 460
+INFO 2023-09-28 15:29:08,145 basehttp 18428 16512 "GET /user/1/orders/30 HTTP/1.1" 200 462
+INFO 2023-09-28 15:29:10,606 basehttp 18428 16512 "GET /user/1/orders/365 HTTP/1.1" 200 452
+INFO 2023-09-28 15:29:12,626 basehttp 18428 16512 "GET /user/1/orders/400 HTTP/1.1" 200 464
+INFO 2023-09-28 16:46:40,018 autoreload 17820 4928 Watching for file changes with StatReloader
+INFO 2023-09-28 16:46:41,343 basehttp 17820 16436 "GET / HTTP/1.1" 200 2657
+INFO 2023-09-28 16:46:45,435 basehttp 17820 16436 "GET /user/5/orders HTTP/1.1" 301 0
+INFO 2023-09-28 16:46:45,452 basehttp 17820 4080 "GET /user/5/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 16:46:47,268 basehttp 17820 4080 "GET /user/5/orders/7 HTTP/1.1" 200 323
+INFO 2023-09-28 16:46:51,172 basehttp 17820 4080 "GET /user/5/orders/30 HTTP/1.1" 200 325
+INFO 2023-09-28 16:46:53,661 basehttp 17820 4080 "GET /user/5/orders/365 HTTP/1.1" 200 725
+INFO 2023-09-28 16:46:58,998 basehttp 17820 4080 "GET /user/5/orders/400 HTTP/1.1" 200 875
+INFO 2023-09-28 16:47:22,645 basehttp 17820 4080 "GET /user/1/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 16:47:23,771 basehttp 17820 4080 "GET /user/1/orders/400 HTTP/1.1" 200 874
+INFO 2023-09-28 16:47:30,938 basehttp 17820 4080 "GET /user/1/orders/30 HTTP/1.1" 200 462
+INFO 2023-09-28 16:47:33,422 basehttp 17820 4080 "GET /user/1/orders/365 HTTP/1.1" 200 862
+INFO 2023-09-28 16:47:39,015 basehttp 17820 4080 "GET /user/2/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 16:47:39,848 basehttp 17820 4080 "GET /user/2/orders/400 HTTP/1.1" 200 464
+INFO 2023-09-28 16:47:46,417 basehttp 17820 4080 "GET /user/3/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 16:47:47,982 basehttp 17820 4080 "GET /user/3/orders/400 HTTP/1.1" 200 738
+INFO 2023-09-28 16:47:55,499 basehttp 17820 4080 "GET /user/4/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 16:47:56,503 basehttp 17820 4080 "GET /user/4/orders/400 HTTP/1.1" 200 464
+INFO 2023-09-28 16:48:01,397 basehttp 17820 4080 "GET /user/5/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 16:48:02,836 basehttp 17820 4080 "GET /user/5/orders/400 HTTP/1.1" 200 875
+INFO 2023-09-28 16:48:11,821 basehttp 17820 4080 "GET /user/5/orders/30 HTTP/1.1" 200 325
+INFO 2023-09-28 16:48:14,055 basehttp 17820 4080 "GET /user/5/orders/365 HTTP/1.1" 200 725
+INFO 2023-09-28 16:48:19,713 basehttp 17820 4080 "GET /user/6/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 16:48:21,252 basehttp 17820 4080 "GET /user/6/orders/400 HTTP/1.1" 200 877
+INFO 2023-09-28 16:53:40,053 basehttp 17820 18320 "GET /user/1/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 16:53:41,842 basehttp 17820 18320 "GET /user/1/orders/400 HTTP/1.1" 200 874
+INFO 2023-09-28 18:05:30,506 autoreload 10496 19056 Watching for file changes with StatReloader
+INFO 2023-09-28 18:05:40,514 basehttp 10496 19440 "GET /user/1/orders/400 HTTP/1.1" 200 1392
+INFO 2023-09-28 18:07:09,901 autoreload 19040 18688 Watching for file changes with StatReloader
+INFO 2023-09-28 18:07:13,019 basehttp 19040 18548 "GET /user/1/orders/400 HTTP/1.1" 200 1414
+INFO 2023-09-28 18:07:35,058 basehttp 19040 18548 "GET /user/3/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 18:07:37,377 basehttp 19040 18548 "GET /user/3/orders/365 HTTP/1.1" 200 928
+INFO 2023-09-28 18:07:42,427 basehttp 19040 18548 "GET /user/3/orders/30 HTTP/1.1" 200 465
+INFO 2023-09-28 18:07:47,124 basehttp 19040 18548 "GET /user/3/orders/400 HTTP/1.1" 200 1178
+INFO 2023-09-28 18:09:04,163 autoreload 19176 18332 Watching for file changes with StatReloader
+INFO 2023-09-28 18:09:08,049 basehttp 19176 15156 "GET /user/3/orders/400 HTTP/1.1" 200 1302
+INFO 2023-09-28 18:09:21,947 basehttp 19176 15156 "GET /user/3/orders/365 HTTP/1.1" 200 1052
+INFO 2023-09-28 18:09:24,448 basehttp 19176 15156 "GET /user/3/orders/400 HTTP/1.1" 200 1302
+INFO 2023-09-28 18:10:04,456 basehttp 19176 15156 "GET /user/3/orders/400 HTTP/1.1" 200 1302
+INFO 2023-09-28 18:10:11,281 basehttp 19176 15156 "GET /user/3/orders/400 HTTP/1.1" 200 1302
+INFO 2023-09-28 18:10:28,537 autoreload 19176 18332 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 18:10:29,187 autoreload 3880 17956 Watching for file changes with StatReloader
+INFO 2023-09-28 18:10:32,488 basehttp 3880 18932 "GET /user/3/orders/400 HTTP/1.1" 200 1479
+INFO 2023-09-28 18:12:44,911 basehttp 3880 18932 "GET /user/3/orders/400 HTTP/1.1" 200 1479
+INFO 2023-09-28 18:14:17,617 basehttp 3880 18932 "GET /user/3/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 18:17:06,381 autoreload 18368 3148 Watching for file changes with StatReloader
+INFO 2023-09-28 18:17:11,865 basehttp 18368 16044 "GET /user/3/orders/400 HTTP/1.1" 200 1479
+INFO 2023-09-28 18:17:28,681 autoreload 18368 3148 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 18:17:29,323 autoreload 18244 18956 Watching for file changes with StatReloader
+INFO 2023-09-28 18:17:33,513 basehttp 18244 8864 "GET /user/3/orders/400 HTTP/1.1" 200 1479
+INFO 2023-09-28 18:18:16,346 autoreload 18244 18956 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 18:18:17,039 autoreload 2000 17932 Watching for file changes with StatReloader
+INFO 2023-09-28 18:18:24,647 basehttp 2000 17088 "GET /user/3/orders/365 HTTP/1.1" 200 1052
+INFO 2023-09-28 18:18:34,161 basehttp 2000 17088 "GET /user/1/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 18:18:35,470 basehttp 2000 17088 "GET /user/1/orders/400 HTTP/1.1" 200 1478
+INFO 2023-09-28 18:18:41,916 basehttp 2000 17088 "GET /user/1/orders/30 HTTP/1.1" 200 826
+INFO 2023-09-28 18:18:45,850 basehttp 2000 17088 "GET /user/1/orders/365 HTTP/1.1" 200 1526
+INFO 2023-09-28 18:19:31,641 basehttp 2000 17088 "GET /user/4/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 18:19:34,969 basehttp 2000 17088 "GET /user/4/orders/400 HTTP/1.1" 200 768
+INFO 2023-09-28 18:20:36,472 basehttp 2000 17088 "GET /user/1/orders/ HTTP/1.1" 200 1101
+INFO 2023-09-28 18:20:46,160 basehttp 2000 17088 "GET /user/1/orders/400 HTTP/1.1" 200 1478
+INFO 2023-09-28 18:28:29,269 autoreload 16452 10164 Watching for file changes with StatReloader
+INFO 2023-09-28 18:28:35,511 basehttp 16452 2656 "GET /user/1/orders/ HTTP/1.1" 200 1099
+INFO 2023-09-28 18:28:36,682 basehttp 16452 2656 "GET /user/1/orders/400 HTTP/1.1" 200 2690
+INFO 2023-09-28 18:29:30,433 autoreload 16452 10164 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 18:29:31,073 autoreload 2364 13064 Watching for file changes with StatReloader
+INFO 2023-09-28 18:29:38,702 basehttp 2364 16856 "GET /user/1/orders/400 HTTP/1.1" 200 2690
+INFO 2023-09-28 18:31:39,076 basehttp 2364 16856 "GET /user/1/orders/400 HTTP/1.1" 200 2360
+INFO 2023-09-28 18:32:11,923 basehttp 2364 16856 "GET /user/1/orders/400 HTTP/1.1" 200 2284
+INFO 2023-09-28 18:32:15,231 basehttp 2364 16856 "GET /user/1/orders/400 HTTP/1.1" 200 2284
+INFO 2023-09-28 19:05:03,390 autoreload 18788 16912 Watching for file changes with StatReloader
+INFO 2023-09-28 19:05:12,300 basehttp 18788 17792 "GET /user/1/orders/400 HTTP/1.1" 200 1752
+INFO 2023-09-28 19:12:09,746 autoreload 17868 16400 Watching for file changes with StatReloader
+INFO 2023-09-28 19:12:20,750 basehttp 17868 2132 "GET /user/1/orders/400 HTTP/1.1" 200 3614
+INFO 2023-09-28 19:13:41,844 autoreload 17356 17928 Watching for file changes with StatReloader
+ERROR 2023-09-28 19:13:46,646 log 17356 16004 Internal Server Error: /user/1/orders/400
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py", line 50, in user_order_range
+    return render(request, 'dz2app/base_orders.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[1]' from 'product[1]'
+ERROR 2023-09-28 19:13:46,658 basehttp 17356 16004 "GET /user/1/orders/400 HTTP/1.1" 500 186601
+INFO 2023-09-28 19:15:07,843 basehttp 17356 16004 "GET /user/1/orders/400 HTTP/1.1" 200 5117
+INFO 2023-09-28 19:19:15,314 autoreload 17356 17928 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 19:19:15,988 autoreload 18592 13948 Watching for file changes with StatReloader
+INFO 2023-09-28 19:19:20,261 basehttp 18592 19412 "GET /user/1/orders/400 HTTP/1.1" 200 5117
+INFO 2023-09-28 19:19:23,199 basehttp 18592 19412 "GET /user/1/orders/400 HTTP/1.1" 200 5117
+INFO 2023-09-28 19:19:25,636 basehttp 18592 19412 "GET /user/1/orders/365 HTTP/1.1" 200 5165
+INFO 2023-09-28 19:20:09,320 autoreload 18592 13948 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 19:20:09,988 autoreload 8956 19260 Watching for file changes with StatReloader
+INFO 2023-09-28 19:20:15,059 basehttp 8956 17620 "GET /user/1/orders/365 HTTP/1.1" 200 5165
+INFO 2023-09-28 19:21:42,994 autoreload 8956 19260 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 19:21:43,619 autoreload 18688 19812 Watching for file changes with StatReloader
+INFO 2023-09-28 19:21:45,581 basehttp 18688 18416 "GET /user/1/orders/365 HTTP/1.1" 200 4362
+INFO 2023-09-28 19:22:01,539 autoreload 18688 19812 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 19:22:02,180 autoreload 19248 18972 Watching for file changes with StatReloader
+INFO 2023-09-28 19:22:11,044 basehttp 19248 16968 "GET /user/1/orders/365 HTTP/1.1" 200 4362
+INFO 2023-09-28 19:22:53,338 autoreload 19248 18972 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 19:22:53,978 autoreload 19696 18492 Watching for file changes with StatReloader
+INFO 2023-09-28 19:23:01,268 basehttp 19696 15952 "GET /user/1/orders/365 HTTP/1.1" 200 4362
+INFO 2023-09-28 19:23:04,578 basehttp 19696 15952 "GET /user/1/orders/400 HTTP/1.1" 200 4314
+INFO 2023-09-28 19:23:49,425 autoreload 19696 18492 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 19:23:50,085 autoreload 17536 3856 Watching for file changes with StatReloader
+INFO 2023-09-28 19:38:35,395 basehttp 17536 19700 "GET /user/1/orders/400 HTTP/1.1" 200 3782
+INFO 2023-09-28 19:39:36,318 basehttp 17536 19700 "GET /user/1/orders/400 HTTP/1.1" 200 5065
+INFO 2023-09-28 19:39:48,789 basehttp 17536 19700 "GET /user/1/orders/365 HTTP/1.1" 200 5113
+INFO 2023-09-28 19:39:56,127 basehttp 17536 19700 "GET /user/1/orders/30 HTTP/1.1" 200 1883
+INFO 2023-09-28 19:40:04,684 basehttp 17536 19700 "GET /user/6/orders/ HTTP/1.1" 200 1099
+INFO 2023-09-28 19:40:05,715 basehttp 17536 19700 "GET /user/6/orders/400 HTTP/1.1" 200 5994
+INFO 2023-09-28 19:40:10,570 basehttp 17536 19700 "GET /user/6/orders/365 HTTP/1.1" 200 5116
+INFO 2023-09-28 19:40:15,554 basehttp 17536 19700 "GET /user/6/orders/30 HTTP/1.1" 200 956
+INFO 2023-09-28 19:46:30,794 autoreload 18676 16280 Watching for file changes with StatReloader
+INFO 2023-09-28 19:46:37,229 basehttp 18676 19120 "GET /user/6/orders/30 HTTP/1.1" 200 393
+INFO 2023-09-28 19:48:18,277 autoreload 7672 7416 Watching for file changes with StatReloader
+INFO 2023-09-28 19:48:22,941 basehttp 7672 20008 "GET / HTTP/1.1" 200 2643
+INFO 2023-09-28 19:48:24,488 basehttp 7672 20008 "GET /user/5/orders/ HTTP/1.1" 200 1099
+INFO 2023-09-28 19:48:25,791 basehttp 7672 20008 "GET /user/5/orders/400 HTTP/1.1" 200 318
+INFO 2023-09-28 19:48:29,004 basehttp 7672 20008 "GET /user/5/orders/7 HTTP/1.1" 200 374
+INFO 2023-09-28 19:48:31,672 basehttp 7672 20008 "GET /user/5/orders/30 HTTP/1.1" 200 376
+INFO 2023-09-28 19:49:30,619 basehttp 7672 20008 "GET /user/5/orders/7 HTTP/1.1" 200 374
+INFO 2023-09-28 19:49:33,192 basehttp 7672 20008 "GET /user/5/orders/400 HTTP/1.1" 200 318
+INFO 2023-09-28 19:49:36,066 basehttp 7672 20008 "GET /user/5/orders/ HTTP/1.1" 200 1099
+INFO 2023-09-28 19:49:38,487 basehttp 7672 20008 "GET /user/6/orders/ HTTP/1.1" 200 1099
+INFO 2023-09-28 19:49:39,390 basehttp 7672 20008 "GET /user/6/orders/400 HTTP/1.1" 200 318
+INFO 2023-09-28 19:50:04,016 basehttp 7672 20008 "GET /user/6/orders/400 HTTP/1.1" 200 6502
+INFO 2023-09-28 19:50:07,850 basehttp 7672 20008 "GET /user/6/orders/7 HTTP/1.1" 200 1022
+INFO 2023-09-28 19:50:12,827 basehttp 7672 20008 "GET /user/6/orders/30 HTTP/1.1" 200 1024
+INFO 2023-09-28 19:50:17,381 basehttp 7672 20008 "GET /user/6/orders/365 HTTP/1.1" 200 5544
+INFO 2023-09-28 19:50:54,453 autoreload 7672 7416 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 19:50:55,123 autoreload 18984 7156 Watching for file changes with StatReloader
+INFO 2023-09-28 19:50:58,448 basehttp 18984 17436 "GET /user/6/orders/7 HTTP/1.1" 200 1022
+INFO 2023-09-28 19:52:07,420 basehttp 18984 17436 "GET /user/6/orders/7 HTTP/1.1" 200 1022
+INFO 2023-09-28 19:52:10,965 basehttp 18984 17436 "GET /user/6/orders/30 HTTP/1.1" 200 1024
+INFO 2023-09-28 19:53:50,663 autoreload 18984 7156 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 19:53:51,301 autoreload 17828 17216 Watching for file changes with StatReloader
+INFO 2023-09-28 19:53:55,444 basehttp 17828 19708 "GET /user/6/orders/30 HTTP/1.1" 200 1024
+INFO 2023-09-28 19:56:22,073 autoreload 17828 17216 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 19:56:22,715 autoreload 19564 13816 Watching for file changes with StatReloader
+INFO 2023-09-28 19:56:30,493 basehttp 19564 16436 "GET /user/6/orders/30 HTTP/1.1" 200 1024
+INFO 2023-09-28 19:58:26,827 autoreload 19564 13816 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-09-28 19:58:27,485 autoreload 19224 17392 Watching for file changes with StatReloader
+INFO 2023-09-28 19:58:31,478 basehttp 19224 18820 "GET /user/6/orders/30 HTTP/1.1" 200 376
+INFO 2023-09-28 19:58:34,725 basehttp 19224 18820 "GET /user/6/orders/400 HTTP/1.1" 200 6502
+INFO 2023-09-28 19:58:36,670 basehttp 19224 18820 "GET /user/6/orders/365 HTTP/1.1" 200 5544
+INFO 2023-09-28 19:58:38,725 basehttp 19224 18820 "GET /user/6/orders/30 HTTP/1.1" 200 376
+INFO 2023-09-28 19:58:40,861 basehttp 19224 18820 "GET /user/6/orders/7 HTTP/1.1" 200 374
+INFO 2023-09-28 19:59:26,805 basehttp 19224 18820 "GET /user/1/orders/ HTTP/1.1" 200 1099
+INFO 2023-09-28 19:59:28,057 basehttp 19224 18820 "GET /user/1/orders/7 HTTP/1.1" 200 374
+INFO 2023-09-28 19:59:30,467 basehttp 19224 18820 "GET /user/1/orders/30 HTTP/1.1" 200 2031
+INFO 2023-09-28 19:59:32,565 basehttp 19224 18820 "GET /user/1/orders/365 HTTP/1.1" 200 5541
+INFO 2023-09-28 19:59:35,855 basehttp 19224 18820 "GET /user/2/orders/ HTTP/1.1" 200 1099
+INFO 2023-09-28 19:59:36,867 basehttp 19224 18820 "GET /user/2/orders/7 HTTP/1.1" 200 374
+INFO 2023-09-28 19:59:40,015 basehttp 19224 18820 "GET /user/2/orders/30 HTTP/1.1" 200 376
+INFO 2023-09-28 19:59:41,895 basehttp 19224 18820 "GET /user/2/orders/365 HTTP/1.1" 200 2021
+INFO 2023-09-28 19:59:45,435 basehttp 19224 18820 "GET /user/3/orders/ HTTP/1.1" 200 1099
+INFO 2023-09-28 19:59:47,675 basehttp 19224 18820 "GET /user/3/orders/365 HTTP/1.1" 200 2527
+INFO 2023-09-28 19:59:53,447 basehttp 19224 18820 "GET /user/4/orders/ HTTP/1.1" 200 1099
+INFO 2023-09-28 19:59:54,840 basehttp 19224 18820 "GET /user/4/orders/365 HTTP/1.1" 200 2021
+INFO 2023-09-28 19:59:58,887 basehttp 19224 18820 "GET /user/5/orders/ HTTP/1.1" 200 1099
+INFO 2023-09-28 20:00:01,226 basehttp 19224 18820 "GET /user/5/orders/365 HTTP/1.1" 200 3534
+INFO 2023-09-28 20:00:08,059 basehttp 19224 18820 "GET /user/6/orders/ HTTP/1.1" 200 1099
+INFO 2023-09-28 20:00:09,294 basehttp 19224 18820 "GET /user/6/orders/30 HTTP/1.1" 200 376
+INFO 2023-09-28 20:00:11,362 basehttp 19224 18820 "GET /user/6/orders/365 HTTP/1.1" 200 5544
+INFO 2023-09-28 20:00:15,546 basehttp 19224 18820 "GET /user/6/orders/400 HTTP/1.1" 200 6502
