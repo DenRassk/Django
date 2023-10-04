@@ -23,7 +23,7 @@
                     <td style="border: 1px solid gray; padding: 5px"> {{ product.quantity }}</td>
                     <td style="border: 1px solid gray; padding: 5px">
                         {% if product.image %}
-                            <img src="{{ product.image.url }}" alt="Ошибка загрузки фото :-(">
+                            <img src="{{product.image.url}}" alt="Ошибка загрузки фото :-(">
                         {% else %}
                             <p>Нет фотографии товара</p>
                         {% endif %}

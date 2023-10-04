@@ -119,7 +119,6 @@ def product_update(request):
 def products_show_all(request):
     message = 'Просмотр списка товаров'
     title = 'Список товаров'
-    print(Path(__file__).resolve().parent.parent)
     products = Product.objects.all()
     return render(request, 'dz2app/product_show_all.html',
                   {'products': products,
