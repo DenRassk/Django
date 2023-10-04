@@ -1,0 +1,35 @@
+{% extends 'dz2app/base.html' %}
+{% block title %} main {% endblock %}
+{% load static %}
+
+{% block header %}
+    <h3>Список товаров</h3>
+{% endblock %}
+
+{% block content %}
+    {% if products %}
+        <h4> Список товаров: </h4>
+        <table style="border-collapse: collapse">
+            <th style="border: 1px solid gray; padding: 5px">Название товара</th>
+            <th style="border: 1px solid gray; padding: 5px">Описание</th>
+            <th style="border: 1px solid gray; padding: 5px">Цена за ед.</th>
+            <th style="border: 1px solid gray; padding: 5px">Количество</th>
+            <th style="border: 1px solid gray; padding: 5px">Фотография товара</th>
+            {% for product in products %}
+                <tr>
+                    <td style="border: 1px solid gray; padding: 5px"> {{ product.name }}</td>
+                    <td style="border: 1px solid gray; padding: 5px"> {{ product.description }}</td>
+                    <td style="border: 1px solid gray; padding: 5px"> {{ product.price }}</td>
+                    <td style="border: 1px solid gray; padding: 5px"> {{ product.quantity }}</td>
+                    <td style="border: 1px solid gray; padding: 5px">
+                        {% if product.image %}
+                            <img src="{{ product.image.url }}" alt="Ошибка загрузки фото :-(">
+                        {% else %}
+                            <p>Нет фотографии товара</p>
+                        {% endif %}
+                    </td>
+                </tr>
+            {% endfor %}
+        </table>
+    {% endif %}
+{% endblock %}

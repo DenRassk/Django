@@ -22,6 +22,7 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=8, decimal_places=2)
     quantity = models.DecimalField(max_digits=8, decimal_places=3) # на случай если количество - вес в КГ до грамма
     date_reg = models.DateField(default=date.today())
+    image = models.ImageField(upload_to='products/', blank=True, null=True)
 
     def __str__(self):
         return f'Товар: {self.name} Цена за 1 единицу: {self.price}'

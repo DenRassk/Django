@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}
+            title
+        {% endblock %}</title>
+</head>
+<body>
+    <header>
+        {% block header %}
+            header
+        {% endblock %}
+    </header>
+    <content>
+        {% block content %}
+            content
+        {% endblock %}
+    </content>
+    <footer>
+        {% block footer %}
+            <h4><a href="/product">вернуться на главную раздела работы с товарами</a></h4>
+        {% endblock %}
+  </footer>
+</body>
+</html>

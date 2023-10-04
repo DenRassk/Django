@@ -1198,3 +1198,661 @@ INFO 2023-09-28 20:00:08,059 basehttp 19224 18820 "GET /user/6/orders/ HTTP/1.1"
 INFO 2023-09-28 20:00:09,294 basehttp 19224 18820 "GET /user/6/orders/30 HTTP/1.1" 200 376
 INFO 2023-09-28 20:00:11,362 basehttp 19224 18820 "GET /user/6/orders/365 HTTP/1.1" 200 5544
 INFO 2023-09-28 20:00:15,546 basehttp 19224 18820 "GET /user/6/orders/400 HTTP/1.1" 200 6502
+INFO 2023-10-02 13:19:39,952 autoreload 13120 8596 Watching for file changes with StatReloader
+INFO 2023-10-02 13:19:47,215 basehttp 13120 9336 "GET / HTTP/1.1" 200 2643
+WARNING 2023-10-02 13:19:56,500 log 13120 9336 Not Found: /favicon.ico
+WARNING 2023-10-02 13:19:56,501 basehttp 13120 9336 "GET /favicon.ico HTTP/1.1" 404 3624
+WARNING 2023-10-02 13:20:00,561 log 13120 9336 Not Found: /products
+WARNING 2023-10-02 13:20:00,562 basehttp 13120 9336 "GET /products HTTP/1.1" 404 3615
+INFO 2023-10-02 13:20:08,159 basehttp 13120 9336 "GET /product HTTP/1.1" 301 0
+ERROR 2023-10-02 13:20:08,259 log 13120 19000 Internal Server Error: /product/
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py", line 58, in product_index
+    return render(request, 'dz2app/product.html',{'title': title})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2023-10-02 13:20:08,268 basehttp 13120 19000 "GET /product/ HTTP/1.1" 500 130219
+INFO 2023-10-02 13:32:12,092 autoreload 18908 20060 Watching for file changes with StatReloader
+ERROR 2023-10-02 13:32:18,706 log 18908 9880 Internal Server Error: /product/
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py", line 58, in product_index
+    return render(request, 'dz2app/product.html',{'title': title})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'product_add' not found. 'product_add' is not a valid view function or pattern name.
+ERROR 2023-10-02 13:32:18,722 basehttp 18908 9880 "GET /product/ HTTP/1.1" 500 161659
+INFO 2023-10-02 13:35:41,074 basehttp 18908 9880 "GET /product/ HTTP/1.1" 200 583
+WARNING 2023-10-02 13:35:46,872 log 18908 9880 Not Found: /product/product_add
+WARNING 2023-10-02 13:35:46,873 basehttp 18908 9880 "GET /product/product_add HTTP/1.1" 404 3648
+INFO 2023-10-02 13:36:48,949 basehttp 18908 9880 "GET /product/ HTTP/1.1" 200 553
+INFO 2023-10-02 13:36:51,464 basehttp 18908 9880 "GET /product/all HTTP/1.1" 301 0
+ERROR 2023-10-02 13:36:51,547 log 18908 19852 Internal Server Error: /product/all/
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py", line 127, in products_show_all
+    return render(request, 'dz2app/product_show_all.html',
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2023-10-02 13:36:51,557 basehttp 18908 19852 "GET /product/all/ HTTP/1.1" 500 138323
+INFO 2023-10-02 13:38:48,834 basehttp 18908 19852 "GET /product/ HTTP/1.1" 200 553
+INFO 2023-10-02 13:38:50,415 basehttp 18908 19852 "GET /product/all/ HTTP/1.1" 200 1808
+INFO 2023-10-02 13:41:11,805 basehttp 18908 19852 "GET /product/ HTTP/1.1" 200 707
+INFO 2023-10-02 13:41:16,160 basehttp 18908 19852 "GET /product/all/ HTTP/1.1" 200 1962
+INFO 2023-10-02 13:42:06,642 basehttp 18908 19852 "GET /product/ HTTP/1.1" 200 657
+INFO 2023-10-02 13:42:09,799 basehttp 18908 19852 "GET /product/all/ HTTP/1.1" 200 1912
+INFO 2023-10-02 13:42:13,521 basehttp 18908 19852 "GET /product/all/ HTTP/1.1" 200 1912
+INFO 2023-10-02 13:42:55,011 basehttp 18908 19852 "GET /product/ HTTP/1.1" 200 665
+INFO 2023-10-02 13:42:56,418 basehttp 18908 19852 "GET /product/all/ HTTP/1.1" 200 1920
+INFO 2023-10-02 13:42:58,196 basehttp 18908 19852 "GET /product/ HTTP/1.1" 200 665
+INFO 2023-10-02 13:42:59,823 basehttp 18908 19852 "GET /product/add HTTP/1.1" 301 0
+ERROR 2023-10-02 13:42:59,943 log 18908 19164 Internal Server Error: /product/add/
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py", line 87, in product_add
+    return render(request,
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'product' not found. 'product' is not a valid view function or pattern name.
+ERROR 2023-10-02 13:42:59,955 basehttp 18908 19164 "GET /product/add/ HTTP/1.1" 500 165140
+INFO 2023-10-02 13:44:30,280 basehttp 18908 19164 "GET /product/ HTTP/1.1" 200 665
+INFO 2023-10-02 13:44:31,859 basehttp 18908 19164 "GET /product/add/ HTTP/1.1" 200 1875
+INFO 2023-10-02 13:44:44,013 basehttp 18908 19164 "GET /product/ HTTP/1.1" 200 665
+INFO 2023-10-02 13:45:19,583 basehttp 18908 19164 "GET /product/add/ HTTP/1.1" 200 1909
+ERROR 2023-10-02 13:46:07,818 log 18908 19164 Internal Server Error: /product/add/
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py", line 69, in product_add
+    image = form.cleaned_data['product_image']
+            ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'product_image'
+ERROR 2023-10-02 13:46:07,819 basehttp 18908 19164 "POST /product/add/ HTTP/1.1" 500 67865
+INFO 2023-10-02 13:47:27,591 autoreload 18908 20060 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-10-02 13:47:28,260 autoreload 17960 4080 Watching for file changes with StatReloader
+ERROR 2023-10-02 13:47:34,278 log 17960 19188 Internal Server Error: /product/add/
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py", line 69, in product_add
+    product = Product(name=form.cleaned_data['product_name'],
+                           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'product_name'
+ERROR 2023-10-02 13:47:34,284 basehttp 17960 19188 "POST /product/add/ HTTP/1.1" 500 67991
+INFO 2023-10-02 13:48:16,021 autoreload 17960 4080 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-10-02 13:48:16,679 autoreload 4320 19128 Watching for file changes with StatReloader
+ERROR 2023-10-02 13:48:22,798 log 4320 9908 Internal Server Error: /product/add/
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py", line 69, in product_add
+    product = Product(name=form.cleaned_data['name'],
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Product() got unexpected keyword arguments: 'date_ordered', 'product_image'
+ERROR 2023-10-02 13:48:22,802 basehttp 4320 9908 "POST /product/add/ HTTP/1.1" 500 75226
+INFO 2023-10-02 13:51:53,974 autoreload 4320 19128 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-10-02 13:51:54,647 autoreload 14168 9764 Watching for file changes with StatReloader
+INFO 2023-10-02 13:55:36,796 basehttp 14168 5656 "POST /product/add/ HTTP/1.1" 200 2003
+INFO 2023-10-02 13:56:03,952 basehttp 14168 5656 "GET /product/ HTTP/1.1" 200 665
+INFO 2023-10-02 13:56:05,702 basehttp 14168 5656 "GET /product/all/ HTTP/1.1" 200 2178
+INFO 2023-10-02 14:04:39,049 basehttp 14168 17124 "GET /product/ HTTP/1.1" 200 665
+INFO 2023-10-02 14:04:40,541 basehttp 14168 17124 "GET /product/all/ HTTP/1.1" 200 2312
+WARNING 2023-10-02 14:04:40,583 log 14168 17124 Not Found: /products/shoes4.png
+WARNING 2023-10-02 14:04:40,584 basehttp 14168 17124 "GET /products/shoes4.png HTTP/1.1" 404 3648
+INFO 2023-10-02 14:32:37,605 autoreload 14168 9764 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2\settings.py changed, reloading.
+INFO 2023-10-02 14:32:38,305 autoreload 19152 20180 Watching for file changes with StatReloader
+INFO 2023-10-02 14:35:58,348 basehttp 19152 2748 "GET /product/all/ HTTP/1.1" 200 2325
+WARNING 2023-10-02 14:35:58,424 log 19152 2748 Not Found: /media/products/shoes4.png
+WARNING 2023-10-02 14:35:58,425 basehttp 19152 2748 "GET /media/products/shoes4.png HTTP/1.1" 404 3666
+INFO 2023-10-02 14:36:47,323 basehttp 19152 2748 "GET /product/all/ HTTP/1.1" 200 2325
+WARNING 2023-10-02 14:36:47,356 log 19152 2748 Not Found: /media/products/shoes4.png
+WARNING 2023-10-02 14:36:47,357 basehttp 19152 2748 "GET /media/products/shoes4.png HTTP/1.1" 404 3666
+WARNING 2023-10-02 14:37:26,058 log 19152 2748 Not Found: /media/products/shoes4.png
+WARNING 2023-10-02 14:37:26,059 basehttp 19152 2748 "GET /media/products/shoes4.png HTTP/1.1" 404 3666
+INFO 2023-10-02 14:42:00,706 basehttp 19152 2748 "GET /product/add/ HTTP/1.1" 200 1909
+INFO 2023-10-02 14:42:27,944 basehttp 19152 2748 "POST /product/add/ HTTP/1.1" 200 1995
+INFO 2023-10-02 14:43:03,974 basehttp 19152 2748 "GET /product/add/ HTTP/1.1" 200 1909
+INFO 2023-10-02 14:43:06,522 basehttp 19152 2748 "GET /product/all/ HTTP/1.1" 200 2722
+WARNING 2023-10-02 14:43:06,567 log 19152 2748 Not Found: /media/products/shoes4.png
+WARNING 2023-10-02 14:43:06,569 log 19152 18932 Not Found: /media/products/shoes5.png
+WARNING 2023-10-02 14:43:06,570 basehttp 19152 2748 "GET /media/products/shoes4.png HTTP/1.1" 404 3666
+WARNING 2023-10-02 14:43:06,571 basehttp 19152 18932 "GET /media/products/shoes5.png HTTP/1.1" 404 3666
+INFO 2023-10-02 14:46:35,710 autoreload 19152 20180 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2\settings.py changed, reloading.
+INFO 2023-10-02 14:46:36,409 autoreload 17044 17756 Watching for file changes with StatReloader
+INFO 2023-10-02 14:46:43,594 basehttp 17044 4616 "GET /product/ HTTP/1.1" 200 665
+INFO 2023-10-02 14:46:46,937 basehttp 17044 4616 "GET /product/add/ HTTP/1.1" 200 1909
+ERROR 2023-10-02 14:47:18,835 log 17044 4616 Internal Server Error: /product/add/
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py", line 76, in product_add
+    product.save()
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\compiler.py", line 1821, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\compiler.py", line 1745, in as_sql
+    value_rows = [
+                 ^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\compiler.py", line 1746, in <listcomp>
+    [
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\compiler.py", line 1747, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\compiler.py", line 1686, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\__init__.py", line 1759, in get_db_prep_save
+    return connection.ops.adapt_decimalfield_value(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\base\operations.py", line 574, in adapt_decimalfield_value
+    return utils.format_number(value, max_digits, decimal_places)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 304, in format_number
+    value = value.quantize(
+            ^^^^^^^^^^^^^^^
+decimal.InvalidOperation: [<class 'decimal.InvalidOperation'>]
+ERROR 2023-10-02 14:47:18,848 basehttp 17044 4616 "POST /product/add/ HTTP/1.1" 500 137657
+INFO 2023-10-02 14:50:15,612 autoreload 17044 17756 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2\settings.py changed, reloading.
+INFO 2023-10-02 14:50:16,303 autoreload 13276 18096 Watching for file changes with StatReloader
+ERROR 2023-10-02 14:51:42,228 log 13276 4004 Internal Server Error: /product/add/
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py", line 76, in product_add
+    product.save()
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\compiler.py", line 1821, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\compiler.py", line 1745, in as_sql
+    value_rows = [
+                 ^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\compiler.py", line 1746, in <listcomp>
+    [
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\compiler.py", line 1747, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\compiler.py", line 1686, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\fields\__init__.py", line 1759, in get_db_prep_save
+    return connection.ops.adapt_decimalfield_value(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\base\operations.py", line 574, in adapt_decimalfield_value
+    return utils.format_number(value, max_digits, decimal_places)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\backends\utils.py", line 304, in format_number
+    value = value.quantize(
+            ^^^^^^^^^^^^^^^
+decimal.InvalidOperation: [<class 'decimal.InvalidOperation'>]
+ERROR 2023-10-02 14:51:42,242 basehttp 13276 4004 "POST /product/add/ HTTP/1.1" 500 137650
+INFO 2023-10-02 14:52:22,797 autoreload 13276 18096 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2\settings.py changed, reloading.
+INFO 2023-10-02 14:52:23,470 autoreload 18292 18080 Watching for file changes with StatReloader
+INFO 2023-10-02 14:52:53,518 basehttp 18292 20164 "GET /product/all/ HTTP/1.1" 200 2722
+WARNING 2023-10-02 14:52:53,602 log 18292 20164 Not Found: /media/products/shoes4.png
+WARNING 2023-10-02 14:52:53,603 log 18292 15668 Not Found: /media/products/shoes5.png
+WARNING 2023-10-02 14:52:53,604 basehttp 18292 20164 "GET /media/products/shoes4.png HTTP/1.1" 404 3666
+WARNING 2023-10-02 14:52:53,604 basehttp 18292 15668 "GET /media/products/shoes5.png HTTP/1.1" 404 3666
+INFO 2023-10-02 14:58:17,517 basehttp 18292 20336 "GET /product/all/ HTTP/1.1" 200 2730
+WARNING 2023-10-02 14:58:17,562 log 18292 20336 Not Found: /product/all/dz2//media/products/shoes4.png
+WARNING 2023-10-02 14:58:17,565 log 18292 18604 Not Found: /product/all/dz2//media/products/shoes5.png
+WARNING 2023-10-02 14:58:17,566 basehttp 18292 20336 "GET /product/all/dz2//media/products/shoes4.png HTTP/1.1" 404 3717
+WARNING 2023-10-02 14:58:17,566 basehttp 18292 18604 "GET /product/all/dz2//media/products/shoes5.png HTTP/1.1" 404 3717
+INFO 2023-10-02 14:58:20,392 basehttp 18292 18604 "GET /product/all/ HTTP/1.1" 200 2730
+WARNING 2023-10-02 14:58:20,434 log 18292 20336 Not Found: /product/all/dz2//media/products/shoes5.png
+WARNING 2023-10-02 14:58:20,435 log 18292 18604 Not Found: /product/all/dz2//media/products/shoes4.png
+WARNING 2023-10-02 14:58:20,436 basehttp 18292 20336 "GET /product/all/dz2//media/products/shoes5.png HTTP/1.1" 404 3717
+WARNING 2023-10-02 14:58:20,436 basehttp 18292 18604 "GET /product/all/dz2//media/products/shoes4.png HTTP/1.1" 404 3717
+INFO 2023-10-02 14:59:21,102 basehttp 18292 20336 "GET /product/all/ HTTP/1.1" 200 2728
+INFO 2023-10-02 14:59:25,189 basehttp 18292 20336 "GET /product/all/ HTTP/1.1" 200 2728
+WARNING 2023-10-02 14:59:25,232 log 18292 20336 Not Found: /product/all/dz2/media/products/shoes4.png
+WARNING 2023-10-02 14:59:25,235 log 18292 18604 Not Found: /product/all/dz2/media/products/shoes5.png
+WARNING 2023-10-02 14:59:25,235 basehttp 18292 20336 "GET /product/all/dz2/media/products/shoes4.png HTTP/1.1" 404 3714
+WARNING 2023-10-02 14:59:25,236 basehttp 18292 18604 "GET /product/all/dz2/media/products/shoes5.png HTTP/1.1" 404 3714
+INFO 2023-10-02 15:01:45,993 basehttp 18292 18604 "GET /product/all/ HTTP/1.1" 200 2730
+INFO 2023-10-02 15:01:51,388 basehttp 18292 18604 "GET /product/all/ HTTP/1.1" 200 2730
+WARNING 2023-10-02 15:01:51,432 log 18292 20336 Not Found: /dz2/media/products/shoes5.png
+WARNING 2023-10-02 15:01:51,434 log 18292 18604 Not Found: /dz2/media/products/shoes4.png
+WARNING 2023-10-02 15:01:51,434 basehttp 18292 20336 "GET /dz2/media/products/shoes5.png HTTP/1.1" 404 3678
+WARNING 2023-10-02 15:01:51,434 basehttp 18292 18604 "GET /dz2/media/products/shoes4.png HTTP/1.1" 404 3678
+INFO 2023-10-02 15:01:53,546 basehttp 18292 18604 "GET /product/all/ HTTP/1.1" 200 2730
+WARNING 2023-10-02 15:01:53,585 log 18292 18604 Not Found: /dz2/media/products/shoes4.png
+WARNING 2023-10-02 15:01:53,586 log 18292 20336 Not Found: /dz2/media/products/shoes5.png
+WARNING 2023-10-02 15:01:53,586 basehttp 18292 18604 "GET /dz2/media/products/shoes4.png HTTP/1.1" 404 3678
+WARNING 2023-10-02 15:01:53,586 basehttp 18292 20336 "GET /dz2/media/products/shoes5.png HTTP/1.1" 404 3678
+INFO 2023-10-02 15:01:55,205 basehttp 18292 18604 "GET /product/all/ HTTP/1.1" 200 2730
+WARNING 2023-10-02 15:01:55,242 log 18292 20336 Not Found: /dz2/media/products/shoes5.png
+WARNING 2023-10-02 15:01:55,244 log 18292 18604 Not Found: /dz2/media/products/shoes4.png
+WARNING 2023-10-02 15:01:55,244 basehttp 18292 20336 "GET /dz2/media/products/shoes5.png HTTP/1.1" 404 3678
+WARNING 2023-10-02 15:01:55,245 basehttp 18292 18604 "GET /dz2/media/products/shoes4.png HTTP/1.1" 404 3678
+INFO 2023-10-02 15:21:45,907 autoreload 18292 18080 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2\settings.py changed, reloading.
+INFO 2023-10-02 15:24:15,063 autoreload 10780 18804 Watching for file changes with StatReloader
+INFO 2023-10-02 15:24:20,943 basehttp 10780 18136 "GET /product/all/ HTTP/1.1" 200 2730
+WARNING 2023-10-02 15:24:20,996 log 10780 18136 Not Found: /dz2/media/products/shoes4.png
+WARNING 2023-10-02 15:24:20,997 log 10780 18900 Not Found: /dz2/media/products/shoes5.png
+WARNING 2023-10-02 15:24:20,998 basehttp 10780 18136 "GET /dz2/media/products/shoes4.png HTTP/1.1" 404 3678
+WARNING 2023-10-02 15:24:20,999 basehttp 10780 18900 "GET /dz2/media/products/shoes5.png HTTP/1.1" 404 3678
+INFO 2023-10-02 15:24:58,233 basehttp 10780 18900 "GET /product/all/ HTTP/1.1" 200 2722
+INFO 2023-10-02 15:25:02,323 basehttp 10780 18900 "GET /product/all/ HTTP/1.1" 200 2722
+WARNING 2023-10-02 15:25:02,362 log 10780 18900 Not Found: /media/products/shoes4.png
+WARNING 2023-10-02 15:25:02,363 basehttp 10780 18900 "GET /media/products/shoes4.png HTTP/1.1" 404 3666
+WARNING 2023-10-02 15:25:02,368 log 10780 18136 Not Found: /media/products/shoes5.png
+WARNING 2023-10-02 15:25:02,369 basehttp 10780 18136 "GET /media/products/shoes5.png HTTP/1.1" 404 3666
+INFO 2023-10-02 18:18:20,148 autoreload 12460 2856 Watching for file changes with StatReloader
+INFO 2023-10-02 18:18:30,458 basehttp 12460 5172 "GET /product/all/ HTTP/1.1" 200 2722
+WARNING 2023-10-02 18:18:30,520 log 12460 5172 Not Found: /media/products/shoes4.png
+WARNING 2023-10-02 18:18:30,521 log 12460 17052 Not Found: /media/products/shoes5.png
+WARNING 2023-10-02 18:18:30,522 basehttp 12460 5172 "GET /media/products/shoes4.png HTTP/1.1" 404 3666
+WARNING 2023-10-02 18:18:30,522 basehttp 12460 17052 "GET /media/products/shoes5.png HTTP/1.1" 404 3666
+WARNING 2023-10-02 18:18:30,550 log 12460 5172 Not Found: /favicon.ico
+WARNING 2023-10-02 18:18:30,551 basehttp 12460 5172 "GET /favicon.ico HTTP/1.1" 404 3624
+INFO 2023-10-02 18:18:33,425 basehttp 12460 5172 "GET /product/ HTTP/1.1" 200 665
+INFO 2023-10-02 18:18:36,099 basehttp 12460 5172 "GET /product/all/ HTTP/1.1" 200 2722
+WARNING 2023-10-02 18:18:36,175 log 12460 17052 Not Found: /media/products/shoes5.png
+WARNING 2023-10-02 18:18:36,176 basehttp 12460 17052 "GET /media/products/shoes5.png HTTP/1.1" 404 3666
+WARNING 2023-10-02 18:18:36,178 log 12460 5172 Not Found: /media/products/shoes4.png
+WARNING 2023-10-02 18:18:36,180 basehttp 12460 5172 "GET /media/products/shoes4.png HTTP/1.1" 404 3666
+INFO 2023-10-02 18:21:16,083 basehttp 12460 5172 "GET /product/all/ HTTP/1.1" 200 2644
+INFO 2023-10-02 18:21:21,934 basehttp 12460 5172 "GET /product/all/ HTTP/1.1" 200 2644
+WARNING 2023-10-02 18:21:21,979 log 12460 5172 Not Found: /product/all/products/shoes4.png
+WARNING 2023-10-02 18:21:21,981 basehttp 12460 5172 "GET /product/all/products/shoes4.png HTTP/1.1" 404 3684
+WARNING 2023-10-02 18:21:21,985 log 12460 17052 Not Found: /product/all/products/shoes5.png
+WARNING 2023-10-02 18:21:21,986 basehttp 12460 17052 "GET /product/all/products/shoes5.png HTTP/1.1" 404 3684
+INFO 2023-10-02 18:21:25,356 basehttp 12460 17052 "GET /product/all/ HTTP/1.1" 200 2644
+WARNING 2023-10-02 18:21:25,387 log 12460 17052 Not Found: /product/all/products/shoes4.png
+WARNING 2023-10-02 18:21:25,388 log 12460 5172 Not Found: /product/all/products/shoes5.png
+WARNING 2023-10-02 18:21:25,388 basehttp 12460 17052 "GET /product/all/products/shoes4.png HTTP/1.1" 404 3684
+WARNING 2023-10-02 18:21:25,389 basehttp 12460 5172 "GET /product/all/products/shoes5.png HTTP/1.1" 404 3684
+WARNING 2023-10-02 18:21:31,507 log 12460 17052 Not Found: /product/all/products/shoes4.png
+WARNING 2023-10-02 18:21:31,508 basehttp 12460 17052 "GET /product/all/products/shoes4.png HTTP/1.1" 404 3684
+INFO 2023-10-02 18:23:53,526 basehttp 12460 17052 "GET /product/all/ HTTP/1.1" 200 2606
+INFO 2023-10-02 18:24:21,912 basehttp 12460 17052 "GET /product/all/ HTTP/1.1" 200 2606
+WARNING 2023-10-02 18:24:21,955 log 12460 17052 Not Found: /media/products/shoes4.png
+WARNING 2023-10-02 18:24:21,957 basehttp 12460 17052 "GET /media/products/shoes4.png HTTP/1.1" 404 3666
+WARNING 2023-10-02 18:24:21,960 log 12460 5172 Not Found: /media/products/shoes5.png
+WARNING 2023-10-02 18:24:21,962 basehttp 12460 5172 "GET /media/products/shoes5.png HTTP/1.1" 404 3666
+INFO 2023-10-02 18:24:27,625 basehttp 12460 5172 "GET /product/all/ HTTP/1.1" 200 2606
+WARNING 2023-10-02 18:24:27,662 log 12460 5172 Not Found: /media/products/shoes4.png
+WARNING 2023-10-02 18:24:27,663 log 12460 17052 Not Found: /media/products/shoes5.png
+WARNING 2023-10-02 18:24:27,664 basehttp 12460 5172 "GET /media/products/shoes4.png HTTP/1.1" 404 3666
+WARNING 2023-10-02 18:24:27,665 basehttp 12460 17052 "GET /media/products/shoes5.png HTTP/1.1" 404 3666
+INFO 2023-10-02 18:29:02,862 autoreload 12460 2856 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-10-02 18:29:03,561 autoreload 9572 8316 Watching for file changes with StatReloader
+INFO 2023-10-02 18:31:20,624 autoreload 9572 8316 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-10-02 18:31:21,327 autoreload 17176 17120 Watching for file changes with StatReloader
+INFO 2023-10-02 18:31:26,159 basehttp 17176 12000 "GET /product/all/ HTTP/1.1" 200 2606
+WARNING 2023-10-02 18:31:26,232 log 17176 15728 Not Found: /media/products/shoes5.png
+WARNING 2023-10-02 18:31:26,233 log 17176 12000 Not Found: /media/products/shoes4.png
+WARNING 2023-10-02 18:31:26,234 basehttp 17176 15728 "GET /media/products/shoes5.png HTTP/1.1" 404 3666
+WARNING 2023-10-02 18:31:26,235 basehttp 17176 12000 "GET /media/products/shoes4.png HTTP/1.1" 404 3666
+INFO 2023-10-02 18:33:12,640 autoreload 17176 17120 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2\settings.py changed, reloading.
+INFO 2023-10-02 18:33:13,316 autoreload 5172 16600 Watching for file changes with StatReloader
+INFO 2023-10-02 18:33:18,154 basehttp 5172 9884 "GET /product/all/ HTTP/1.1" 200 2606
+WARNING 2023-10-02 18:33:18,205 log 5172 9884 Not Found: /media/products/shoes4.png
+WARNING 2023-10-02 18:33:18,206 log 5172 11724 Not Found: /media/products/shoes5.png
+WARNING 2023-10-02 18:33:18,207 basehttp 5172 9884 "GET /media/products/shoes4.png HTTP/1.1" 404 3666
+WARNING 2023-10-02 18:33:18,208 basehttp 5172 11724 "GET /media/products/shoes5.png HTTP/1.1" 404 3666
+INFO 2023-10-02 18:34:15,385 autoreload 5172 16600 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-10-02 18:34:16,044 autoreload 18000 2576 Watching for file changes with StatReloader
+ERROR 2023-10-02 18:34:19,231 log 18000 16388 Internal Server Error: /product/all/
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py", line 121, in products_show_all
+    print(Path(__file__).resolve().parent.parent + '/dz2app/media')
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'WindowsPath' and 'str'
+ERROR 2023-10-02 18:34:19,235 basehttp 18000 16388 "GET /product/all/ HTTP/1.1" 500 66336
+INFO 2023-10-02 18:36:37,654 autoreload 18000 2576 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-10-02 18:36:38,361 autoreload 11372 18060 Watching for file changes with StatReloader
+INFO 2023-10-02 18:36:43,807 basehttp 11372 15696 "GET /product/all/ HTTP/1.1" 200 2606
+INFO 2023-10-02 18:36:46,744 basehttp 11372 15696 "GET /product/all/ HTTP/1.1" 200 2606
+INFO 2023-10-02 18:36:57,672 basehttp 11372 15696 "GET /product/all/ HTTP/1.1" 200 2606
+WARNING 2023-10-02 18:36:57,717 log 11372 15696 Not Found: /media/products/shoes4.png
+WARNING 2023-10-02 18:36:57,718 log 11372 8008 Not Found: /media/products/shoes5.png
+WARNING 2023-10-02 18:36:57,719 basehttp 11372 15696 "GET /media/products/shoes4.png HTTP/1.1" 404 3666
+WARNING 2023-10-02 18:36:57,719 basehttp 11372 8008 "GET /media/products/shoes5.png HTTP/1.1" 404 3666
+INFO 2023-10-02 18:37:00,691 basehttp 11372 8008 "GET /product/all/ HTTP/1.1" 200 2606
+WARNING 2023-10-02 18:37:00,726 log 11372 8008 Not Found: /media/products/shoes4.png
+WARNING 2023-10-02 18:37:00,727 log 11372 15696 Not Found: /media/products/shoes5.png
+WARNING 2023-10-02 18:37:00,728 basehttp 11372 8008 "GET /media/products/shoes4.png HTTP/1.1" 404 3666
+WARNING 2023-10-02 18:37:00,728 basehttp 11372 15696 "GET /media/products/shoes5.png HTTP/1.1" 404 3666
+INFO 2023-10-02 18:55:11,888 autoreload 11372 18060 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-10-02 18:55:12,541 autoreload 18184 2852 Watching for file changes with StatReloader
+INFO 2023-10-04 15:14:27,106 autoreload 868 3408 Watching for file changes with StatReloader
+INFO 2023-10-04 15:16:47,476 autoreload 868 3408 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-10-04 15:16:48,133 autoreload 10552 3488 Watching for file changes with StatReloader
+WARNING 2023-10-04 15:16:59,660 log 10552 1356 Not Found: /favicon.ico
+WARNING 2023-10-04 15:16:59,660 basehttp 10552 1356 "GET /favicon.ico HTTP/1.1" 404 3624
+INFO 2023-10-04 15:17:02,134 basehttp 10552 1356 "GET /product/all/ HTTP/1.1" 200 4919
+WARNING 2023-10-04 15:17:02,196 log 10552 1356 Not Found: /media/products/shoes4.png
+WARNING 2023-10-04 15:17:02,197 basehttp 10552 1356 "GET /media/products/shoes4.png HTTP/1.1" 404 3666
+WARNING 2023-10-04 15:17:02,199 log 10552 17348 Not Found: /media/products/shoes5.png
+WARNING 2023-10-04 15:17:02,200 basehttp 10552 17348 "GET /media/products/shoes5.png HTTP/1.1" 404 3666
+INFO 2023-10-04 15:17:31,989 basehttp 10552 17348 "GET /product/update HTTP/1.1" 301 0
+ERROR 2023-10-04 15:17:32,064 log 10552 1356 Internal Server Error: /product/update/
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py", line 111, in product_update
+    return render(request, 'dz2app/product_update.html',
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: dz2app/product_update.html
+ERROR 2023-10-04 15:17:32,069 basehttp 10552 1356 "GET /product/update/ HTTP/1.1" 500 82368
+INFO 2023-10-04 15:22:38,844 basehttp 10552 10192 "GET /product/update/ HTTP/1.1" 200 2981
+INFO 2023-10-04 15:23:43,051 basehttp 10552 10192 "POST /product/update/ HTTP/1.1" 200 3038
+INFO 2023-10-04 15:23:51,483 basehttp 10552 10192 "GET /product/ HTTP/1.1" 200 665
+INFO 2023-10-04 15:23:53,832 basehttp 10552 10192 "GET /product/all/ HTTP/1.1" 200 4911
+WARNING 2023-10-04 15:23:53,887 log 10552 10192 Not Found: /media/products/shoes2.png
+WARNING 2023-10-04 15:23:53,888 basehttp 10552 10192 "GET /media/products/shoes2.png HTTP/1.1" 404 3666
+WARNING 2023-10-04 15:23:53,891 log 10552 7672 Not Found: /media/products/shoes5.png
+WARNING 2023-10-04 15:23:53,891 basehttp 10552 7672 "GET /media/products/shoes5.png HTTP/1.1" 404 3666
+INFO 2023-10-04 15:25:16,576 basehttp 10552 10192 "GET /product/all/ HTTP/1.1" 200 5617
+WARNING 2023-10-04 15:25:16,628 log 10552 7672 Not Found: /media/products/shoes5.png
+WARNING 2023-10-04 15:25:16,629 basehttp 10552 7672 "GET /media/products/shoes5.png HTTP/1.1" 404 3666
+WARNING 2023-10-04 15:25:16,631 log 10552 10192 Not Found: /media/products/shoes2.png
+WARNING 2023-10-04 15:25:16,631 basehttp 10552 10192 "GET /media/products/shoes2.png HTTP/1.1" 404 3666
+INFO 2023-10-04 15:28:01,435 basehttp 10552 10192 "GET /product/all/ HTTP/1.1" 200 5843
+WARNING 2023-10-04 15:28:01,484 log 10552 10192 Not Found: /media/products/shoes2.png
+WARNING 2023-10-04 15:28:01,487 basehttp 10552 10192 "GET /media/products/shoes2.png HTTP/1.1" 404 3666
+WARNING 2023-10-04 15:28:01,490 log 10552 7672 Not Found: /media/products/shoes5.png
+WARNING 2023-10-04 15:28:01,492 basehttp 10552 7672 "GET /media/products/shoes5.png HTTP/1.1" 404 3666
+INFO 2023-10-04 15:30:23,043 basehttp 10552 7672 "GET /product/all/ HTTP/1.1" 200 6223
+WARNING 2023-10-04 15:30:23,091 log 10552 10192 Not Found: /media/products/shoes5.png
+WARNING 2023-10-04 15:30:23,093 log 10552 7672 Not Found: /media/products/shoes2.png
+WARNING 2023-10-04 15:30:23,094 basehttp 10552 10192 "GET /media/products/shoes5.png HTTP/1.1" 404 3666
+WARNING 2023-10-04 15:30:23,094 basehttp 10552 7672 "GET /media/products/shoes2.png HTTP/1.1" 404 3666
