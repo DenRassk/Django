@@ -10,12 +10,25 @@ from .models import User, Order, Product
 
 # Create your views here.
 
-# ДЗ 3 - список пользователей
+
 def index(request):
+    context = {'title': 'Учебный сайт - главная',
+               'header': 'Выберите раздел:',
+               'link': '/',
+               'text': 'на главную',
+               }
+    return render(request,'dz2app/index.html', context)
+
+
+# ДЗ 3 - список пользователей
+def users(request):
     users = User.objects.all()
     context = {'title': 'Учебный сайт - главная',
-               'users': users}
-    return render(request,'dz2app/index.html', context)
+               'users': users,
+               'footer_link': '/',
+               'footer_link': 'на главную',
+               }
+    return render(request,'dz2app/users.html', context)
 
 # ДЗ 3 - список заказов пользователя
 def user_order(request, user_id):
@@ -56,8 +69,11 @@ def user_order_range(request, user_id, range_):
 
 # дз4 - типа главная старница у товаров
 def product_index(request):
-    title = 'Управление товарами'
-    return render(request, 'dz2app/product.html',{'title': title})
+    context = {'title': 'Управление товарами',
+               'link': '/',
+               'text': 'на главную',
+               }
+    return render(request, 'dz2app/product.html', context)
 
 
 
@@ -84,7 +100,9 @@ def product_add(request):
                   'dz2app/product_add.html',
                   {'form': form,
                    'message': message,
-                   'title': title}
+                   'title': title,
+                   'link': '/product',
+                   'text': 'Управление продуктами'}
                   )
 
 
@@ -111,7 +129,10 @@ def product_update(request):
     return render(request, 'dz2app/product_update.html',
                   {'form': form,
                    'message': message,
-                   'title': title}
+                   'title': title,
+                   'link': '/product',
+                   'text': 'Управление продуктами'
+                   }
                   )
 
 
@@ -123,5 +144,8 @@ def products_show_all(request):
     return render(request, 'dz2app/product_show_all.html',
                   {'products': products,
                    'message': message,
-                   'title': title}
+                   'title': title,
+                   'link': '/product',
+                   'text': 'Управление продуктами'
+                   }
                   )

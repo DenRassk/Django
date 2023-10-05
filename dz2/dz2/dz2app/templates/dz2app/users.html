@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+    <h2>Список покупателей: </h2>
+    <table style="border-collapse: collapse">
+        <tr>
+            <td style="border: 1px solid gray; padding: 5px">Имя пользователя</td>
+            <td style="border: 1px solid gray; padding: 5px">Адрес эл. почты</td>
+            <td style="border: 1px solid gray; padding: 5px">Посмотреть заказы</td>
+        </tr>
+    {% for user in users %}
+        <tr>
+            <td style="border: 1px solid gray; padding: 5px">{{ user.name }}</td>
+            <td style="border: 1px solid gray; padding: 5px">{{ user.email }}</td>
+            <td style="border: 1px solid gray; padding: 5px">
+                <a href="user/{{ user.id }}/orders">Посмотреть заказы</a>
+            </td>
+        </tr>
+    {% endfor %}
+    </table>
+    <h4><a href='/' >на главную</a></h4>
+</body>
+</html>

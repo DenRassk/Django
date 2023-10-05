@@ -2020,3 +2020,402 @@ INFO 2023-10-04 16:57:06,898 basehttp 2884 15720 "GET /media/products/shoes5.png
 INFO 2023-10-04 16:57:52,237 basehttp 2884 15720 "GET /product/ HTTP/1.1" 200 665
 INFO 2023-10-04 16:57:54,599 basehttp 2884 15720 "GET /product/update HTTP/1.1" 301 0
 INFO 2023-10-04 16:57:54,650 basehttp 2884 3944 "GET /product/update/ HTTP/1.1" 200 2981
+INFO 2023-10-05 09:29:30,561 autoreload 1196 3776 Watching for file changes with StatReloader
+INFO 2023-10-05 09:29:32,485 basehttp 1196 10208 "GET / HTTP/1.1" 200 2643
+WARNING 2023-10-05 09:29:32,766 log 1196 10208 Not Found: /favicon.ico
+WARNING 2023-10-05 09:29:32,766 basehttp 1196 10208 "GET /favicon.ico HTTP/1.1" 404 3971
+INFO 2023-10-05 09:29:38,104 basehttp 1196 10208 "GET /admin HTTP/1.1" 301 0
+INFO 2023-10-05 09:29:38,123 basehttp 1196 3584 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-05 09:29:38,219 basehttp 1196 3584 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-10-05 09:29:38,414 basehttp 1196 3584 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2023-10-05 09:29:38,418 basehttp 1196 17092 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2023-10-05 09:29:38,427 basehttp 1196 17584 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2023-10-05 09:29:38,434 basehttp 1196 17864 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2023-10-05 09:29:38,434 basehttp 1196 15300 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2023-10-05 09:29:38,435 basehttp 1196 18048 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2023-10-05 09:29:38,451 basehttp 1196 3584 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2023-10-05 09:29:46,390 basehttp 1196 3584 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-10-05 09:29:46,455 basehttp 1196 3584 "GET /admin/ HTTP/1.1" 200 5852
+INFO 2023-10-05 09:29:46,513 basehttp 1196 3584 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2023-10-05 09:29:46,540 basehttp 1196 15300 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2023-10-05 09:29:46,541 basehttp 1196 3584 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2023-10-05 09:29:57,462 basehttp 1196 3584 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-10-05 09:30:00,853 basehttp 1196 3584 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-05 09:30:00,866 basehttp 1196 3584 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-10-05 09:32:54,646 autoreload 11232 18056 Watching for file changes with StatReloader
+INFO 2023-10-05 09:32:58,369 basehttp 11232 10472 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-10-05 09:32:58,460 basehttp 11232 10472 "GET /admin/ HTTP/1.1" 200 7410
+INFO 2023-10-05 09:33:27,966 basehttp 11232 10472 "GET /admin/dz2app/user/ HTTP/1.1" 200 11008
+INFO 2023-10-05 09:33:28,024 basehttp 11232 18804 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 09:33:28,158 basehttp 11232 10472 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2023-10-05 09:33:28,172 basehttp 11232 5960 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2023-10-05 09:33:28,185 basehttp 11232 10472 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2023-10-05 09:33:28,187 basehttp 11232 1604 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2023-10-05 09:33:28,188 basehttp 11232 5960 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2023-10-05 09:33:28,200 basehttp 11232 17524 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2023-10-05 09:33:28,201 basehttp 11232 18804 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2023-10-05 09:33:28,202 basehttp 11232 18172 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2023-10-05 09:33:28,215 basehttp 11232 5960 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2023-10-05 09:33:28,294 basehttp 11232 18172 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2023-10-05 09:33:28,319 basehttp 11232 5960 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2023-10-05 09:33:31,677 basehttp 11232 5960 "GET /admin/dz2app/product/ HTTP/1.1" 200 11589
+INFO 2023-10-05 09:33:31,721 basehttp 11232 5960 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 09:33:35,184 basehttp 11232 5960 "GET /admin/dz2app/order/ HTTP/1.1" 200 15097
+INFO 2023-10-05 09:33:35,222 basehttp 11232 5960 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 09:33:36,533 basehttp 11232 5960 "GET /admin/dz2app/product/ HTTP/1.1" 200 11589
+INFO 2023-10-05 09:33:36,584 basehttp 11232 5960 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 09:33:37,533 basehttp 11232 5960 "GET /admin/dz2app/product/7/change/ HTTP/1.1" 200 13350
+INFO 2023-10-05 09:33:37,582 basehttp 11232 18804 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 09:33:37,583 basehttp 11232 5960 "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+INFO 2023-10-05 09:33:37,586 basehttp 11232 10472 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2023-10-05 09:33:37,590 basehttp 11232 18172 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2023-10-05 09:33:37,594 basehttp 11232 17524 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2023-10-05 09:33:37,600 basehttp 11232 5960 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+INFO 2023-10-05 09:33:37,623 basehttp 11232 5960 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2023-10-05 09:33:37,689 basehttp 11232 5960 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2023-10-05 09:33:47,726 basehttp 11232 5960 "GET /admin/dz2app/order/ HTTP/1.1" 200 15097
+INFO 2023-10-05 09:33:47,779 basehttp 11232 5960 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 09:33:51,625 basehttp 11232 5960 "GET /admin/dz2app/user/ HTTP/1.1" 200 11008
+INFO 2023-10-05 09:33:51,665 basehttp 11232 5960 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 09:33:53,055 basehttp 11232 5960 "GET /admin/dz2app/product/ HTTP/1.1" 200 11589
+INFO 2023-10-05 09:33:53,105 basehttp 11232 5960 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 09:33:54,501 basehttp 11232 5960 "GET /admin/dz2app/order/ HTTP/1.1" 200 15097
+INFO 2023-10-05 09:33:54,543 basehttp 11232 5960 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 09:33:55,471 basehttp 11232 5960 "GET /admin/dz2app/order/17/change/ HTTP/1.1" 200 15142
+INFO 2023-10-05 09:33:55,520 basehttp 11232 5960 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 09:33:55,527 basehttp 11232 18172 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2023-10-05 09:33:55,582 basehttp 11232 18172 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2023-10-05 09:34:08,412 basehttp 11232 18172 "GET /admin/dz2app/order/ HTTP/1.1" 200 15097
+INFO 2023-10-05 09:34:10,094 basehttp 11232 18172 "GET /admin/dz2app/product/ HTTP/1.1" 200 11589
+INFO 2023-10-05 09:34:11,422 basehttp 11232 18172 "GET /admin/dz2app/user/ HTTP/1.1" 200 11008
+INFO 2023-10-05 09:34:13,537 basehttp 11232 18172 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-10-05 09:34:24,543 basehttp 11232 18172 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-05 09:34:24,561 basehttp 11232 18172 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-10-05 13:57:53,998 autoreload 14956 16012 Watching for file changes with StatReloader
+INFO 2023-10-05 13:57:56,700 basehttp 14956 9280 "GET / HTTP/1.1" 200 2643
+WARNING 2023-10-05 13:57:57,225 log 14956 9280 Not Found: /favicon.ico
+WARNING 2023-10-05 13:57:57,226 basehttp 14956 9280 "GET /favicon.ico HTTP/1.1" 404 3971
+INFO 2023-10-05 13:58:09,079 basehttp 14956 9280 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-05 13:58:09,148 basehttp 14956 9280 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-10-05 13:58:12,074 basehttp 14956 9280 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-10-05 13:58:12,110 basehttp 14956 9280 "GET /admin/ HTTP/1.1" 200 7410
+INFO 2023-10-05 13:58:13,990 basehttp 14956 9280 "GET /admin/dz2app/user/ HTTP/1.1" 200 11270
+INFO 2023-10-05 13:58:14,041 basehttp 14956 9280 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 13:58:19,808 basehttp 14956 9280 "GET /admin/dz2app/product/ HTTP/1.1" 200 12035
+INFO 2023-10-05 13:58:19,872 basehttp 14956 9280 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 13:58:21,605 basehttp 14956 9280 "GET /admin/dz2app/order/ HTTP/1.1" 200 14946
+INFO 2023-10-05 13:58:21,652 basehttp 14956 9280 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 13:58:24,207 basehttp 14956 9280 "GET /admin/dz2app/order/18/change/ HTTP/1.1" 200 15124
+INFO 2023-10-05 13:58:24,260 basehttp 14956 9280 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:07:31,731 basehttp 14956 15720 "GET /admin/dz2app/order/ HTTP/1.1" 200 14946
+INFO 2023-10-05 14:07:31,788 basehttp 14956 15720 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:07:40,635 basehttp 14956 15720 "GET /admin/dz2app/order/18/change/ HTTP/1.1" 200 15124
+INFO 2023-10-05 14:07:42,807 basehttp 14956 15720 "GET /admin/ HTTP/1.1" 200 7410
+INFO 2023-10-05 14:07:43,960 basehttp 14956 15720 "GET /admin/dz2app/product/ HTTP/1.1" 200 12035
+INFO 2023-10-05 14:07:44,007 basehttp 14956 15720 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:07:49,100 basehttp 14956 15720 "GET /admin/dz2app/product/8/change/ HTTP/1.1" 200 13368
+INFO 2023-10-05 14:07:49,149 basehttp 14956 15720 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:07:53,260 basehttp 14956 15720 "GET /admin/dz2app/product/ HTTP/1.1" 200 12035
+INFO 2023-10-05 14:07:55,710 basehttp 14956 15720 "GET /admin/ HTTP/1.1" 200 7410
+INFO 2023-10-05 14:07:56,903 basehttp 14956 15720 "GET /admin/dz2app/user/ HTTP/1.1" 200 11270
+INFO 2023-10-05 14:07:56,940 basehttp 14956 15720 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:07:59,535 basehttp 14956 15720 "GET /admin/ HTTP/1.1" 200 7410
+INFO 2023-10-05 14:08:47,365 basehttp 14956 15720 "GET /admin/dz2app/user/ HTTP/1.1" 200 11270
+INFO 2023-10-05 14:08:47,422 basehttp 14956 15720 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:10:34,297 autoreload 14956 16012 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\admin.py changed, reloading.
+INFO 2023-10-05 14:10:35,017 autoreload 14980 16316 Watching for file changes with StatReloader
+INFO 2023-10-05 14:10:41,918 basehttp 14980 17348 "GET /admin/dz2app/user/ HTTP/1.1" 200 11572
+INFO 2023-10-05 14:10:41,979 basehttp 14980 17348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:10:42,080 basehttp 14980 17348 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2023-10-05 14:10:44,395 basehttp 14980 17348 "GET /admin/dz2app/user/1/change/ HTTP/1.1" 200 12391
+INFO 2023-10-05 14:10:44,440 basehttp 14980 17348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:10:47,235 basehttp 14980 17348 "GET /admin/dz2app/user/ HTTP/1.1" 200 11572
+INFO 2023-10-05 14:10:55,555 basehttp 14980 17348 "GET /admin/ HTTP/1.1" 200 7410
+INFO 2023-10-05 14:10:57,181 basehttp 14980 17348 "GET /admin/dz2app/product/ HTTP/1.1" 200 12339
+INFO 2023-10-05 14:10:57,219 basehttp 14980 17348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:10:59,444 basehttp 14980 17348 "GET /admin/dz2app/product/1/change/ HTTP/1.1" 200 13001
+INFO 2023-10-05 14:10:59,494 basehttp 14980 17348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:11:01,670 basehttp 14980 17348 "GET /admin/dz2app/product/ HTTP/1.1" 200 12339
+INFO 2023-10-05 14:11:03,501 basehttp 14980 17348 "GET /admin/ HTTP/1.1" 200 7410
+INFO 2023-10-05 14:11:05,610 basehttp 14980 17348 "GET /admin/dz2app/order/ HTTP/1.1" 200 15248
+INFO 2023-10-05 14:11:05,656 basehttp 14980 17348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:11:08,174 basehttp 14980 17348 "GET /admin/ HTTP/1.1" 200 7410
+INFO 2023-10-05 14:14:29,363 autoreload 14980 16316 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\admin.py changed, reloading.
+INFO 2023-10-05 14:14:30,063 autoreload 13136 14636 Watching for file changes with StatReloader
+INFO 2023-10-05 14:18:41,731 autoreload 13136 14636 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\admin.py changed, reloading.
+INFO 2023-10-05 14:18:42,473 autoreload 17216 13492 Watching for file changes with StatReloader
+INFO 2023-10-05 14:18:47,485 basehttp 17216 15372 "GET /admin/ HTTP/1.1" 200 7410
+INFO 2023-10-05 14:18:51,067 basehttp 17216 15372 "GET /admin/dz2app/user/ HTTP/1.1" 200 12045
+INFO 2023-10-05 14:18:51,131 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:18:51,195 basehttp 17216 15372 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2023-10-05 14:19:01,271 basehttp 17216 15372 "GET /admin/dz2app/user/?q=4 HTTP/1.1" 200 10825
+INFO 2023-10-05 14:19:01,324 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:19:06,146 basehttp 17216 15372 "GET /admin/dz2app/user/? HTTP/1.1" 200 12045
+INFO 2023-10-05 14:19:06,183 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:19:29,383 basehttp 17216 15372 "GET /admin/dz2app/user/1/change/ HTTP/1.1" 200 12391
+INFO 2023-10-05 14:19:29,433 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:19:31,642 basehttp 17216 15372 "GET /admin/dz2app/user/? HTTP/1.1" 200 12045
+INFO 2023-10-05 14:19:36,356 basehttp 17216 15372 "GET /admin/dz2app/user/?q=4 HTTP/1.1" 200 10825
+INFO 2023-10-05 14:19:37,910 basehttp 17216 15372 "GET /admin/dz2app/user/ HTTP/1.1" 200 12045
+INFO 2023-10-05 14:19:38,994 basehttp 17216 15372 "GET /admin/ HTTP/1.1" 200 7410
+INFO 2023-10-05 14:19:42,828 basehttp 17216 15372 "GET /admin/ HTTP/1.1" 200 7410
+INFO 2023-10-05 14:19:46,217 basehttp 17216 15372 "GET /admin/dz2app/product/ HTTP/1.1" 200 14196
+INFO 2023-10-05 14:19:46,277 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:20:06,619 basehttp 17216 15372 "GET /admin/dz2app/product/?price=6.30 HTTP/1.1" 200 12739
+INFO 2023-10-05 14:20:06,659 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:20:08,464 basehttp 17216 15372 "GET /admin/dz2app/product/?price=5.25 HTTP/1.1" 200 12739
+INFO 2023-10-05 14:20:08,513 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:20:09,754 basehttp 17216 15372 "GET /admin/dz2app/product/?price=2.10 HTTP/1.1" 200 12738
+INFO 2023-10-05 14:20:09,789 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:20:11,704 basehttp 17216 15372 "GET /admin/dz2app/product/? HTTP/1.1" 200 14196
+INFO 2023-10-05 14:20:11,745 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:20:13,217 basehttp 17216 15372 "GET /admin/dz2app/product/?quantity=84.000 HTTP/1.1" 200 12823
+INFO 2023-10-05 14:20:13,257 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:20:14,960 basehttp 17216 15372 "GET /admin/dz2app/product/?price=5.25&quantity=84.000 HTTP/1.1" 200 11604
+INFO 2023-10-05 14:20:14,996 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:20:17,072 basehttp 17216 15372 "GET /admin/dz2app/product/?quantity=84.000 HTTP/1.1" 200 12823
+INFO 2023-10-05 14:20:17,109 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:20:19,095 basehttp 17216 15372 "GET /admin/dz2app/product/? HTTP/1.1" 200 14196
+INFO 2023-10-05 14:20:19,142 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:20:26,098 basehttp 17216 15372 "GET /admin/dz2app/product/?o=-1 HTTP/1.1" 200 14640
+INFO 2023-10-05 14:20:26,135 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:20:27,588 basehttp 17216 15372 "GET /admin/dz2app/product/?o=1 HTTP/1.1" 200 14610
+INFO 2023-10-05 14:20:27,624 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:20:28,693 basehttp 17216 15372 "GET /admin/dz2app/product/?o=-1 HTTP/1.1" 200 14640
+INFO 2023-10-05 14:20:28,740 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:20:30,401 basehttp 17216 15372 "GET /admin/dz2app/product/?o=1 HTTP/1.1" 200 14610
+INFO 2023-10-05 14:20:30,449 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:20:35,418 basehttp 17216 15372 "GET /admin/dz2app/product/?o= HTTP/1.1" 200 14278
+INFO 2023-10-05 14:20:35,469 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:20:38,802 basehttp 17216 15372 "GET /admin/dz2app/product/?o=2 HTTP/1.1" 200 14610
+INFO 2023-10-05 14:20:38,846 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:20:39,926 basehttp 17216 15372 "GET /admin/dz2app/product/?o=-2 HTTP/1.1" 200 14640
+INFO 2023-10-05 14:20:39,966 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:20:42,144 basehttp 17216 15372 "GET /admin/dz2app/product/?o=2 HTTP/1.1" 200 14610
+INFO 2023-10-05 14:20:42,189 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:20:43,618 basehttp 17216 15372 "GET /admin/dz2app/product/?o= HTTP/1.1" 200 14278
+INFO 2023-10-05 14:20:43,655 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:20:47,688 basehttp 17216 15372 "GET /admin/dz2app/product/?o=2 HTTP/1.1" 200 14610
+INFO 2023-10-05 14:21:43,281 basehttp 17216 15372 "GET /admin/dz2app/product/1/change/?_changelist_filters=o%3D2 HTTP/1.1" 200 13089
+INFO 2023-10-05 14:21:43,359 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:23:18,588 basehttp 17216 15372 "POST /admin/dz2app/product/1/change/?_changelist_filters=o%3D2 HTTP/1.1" 302 0
+INFO 2023-10-05 14:23:18,683 basehttp 17216 15372 "GET /admin/dz2app/product/?o=2 HTTP/1.1" 200 14875
+INFO 2023-10-05 14:23:18,729 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:23:18,758 basehttp 17216 15372 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2023-10-05 14:23:20,901 basehttp 17216 15372 "GET /admin/dz2app/product/2/change/?_changelist_filters=o%3D2 HTTP/1.1" 200 13089
+INFO 2023-10-05 14:23:20,970 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:23:32,244 basehttp 17216 15372 "POST /admin/dz2app/product/2/change/?_changelist_filters=o%3D2 HTTP/1.1" 302 0
+INFO 2023-10-05 14:23:32,338 basehttp 17216 15372 "GET /admin/dz2app/product/?o=2 HTTP/1.1" 200 14875
+INFO 2023-10-05 14:23:32,381 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:23:34,424 basehttp 17216 15372 "GET /admin/dz2app/product/3/change/?_changelist_filters=o%3D2 HTTP/1.1" 200 13089
+INFO 2023-10-05 14:23:34,510 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:23:43,268 basehttp 17216 15372 "POST /admin/dz2app/product/3/change/?_changelist_filters=o%3D2 HTTP/1.1" 302 0
+INFO 2023-10-05 14:23:43,349 basehttp 17216 15372 "GET /admin/dz2app/product/?o=2 HTTP/1.1" 200 14875
+INFO 2023-10-05 14:23:43,388 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:23:45,557 basehttp 17216 15372 "GET /admin/dz2app/product/4/change/?_changelist_filters=o%3D2 HTTP/1.1" 200 13089
+INFO 2023-10-05 14:23:45,629 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:23:56,283 basehttp 17216 15372 "POST /admin/dz2app/product/4/change/?_changelist_filters=o%3D2 HTTP/1.1" 302 0
+INFO 2023-10-05 14:23:56,371 basehttp 17216 15372 "GET /admin/dz2app/product/?o=2 HTTP/1.1" 200 14875
+INFO 2023-10-05 14:23:56,425 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:23:58,325 basehttp 17216 15372 "GET /admin/dz2app/product/5/change/?_changelist_filters=o%3D2 HTTP/1.1" 200 13090
+INFO 2023-10-05 14:23:58,394 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:24:08,124 basehttp 17216 15372 "POST /admin/dz2app/product/5/change/?_changelist_filters=o%3D2 HTTP/1.1" 302 0
+INFO 2023-10-05 14:24:08,213 basehttp 17216 15372 "GET /admin/dz2app/product/?o=2 HTTP/1.1" 200 14875
+INFO 2023-10-05 14:24:08,261 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:24:11,207 basehttp 17216 15372 "GET /admin/dz2app/product/6/change/?_changelist_filters=o%3D2 HTTP/1.1" 200 13090
+INFO 2023-10-05 14:24:11,287 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:24:20,374 basehttp 17216 15372 "POST /admin/dz2app/product/6/change/?_changelist_filters=o%3D2 HTTP/1.1" 302 0
+INFO 2023-10-05 14:24:20,460 basehttp 17216 15372 "GET /admin/dz2app/product/?o=2 HTTP/1.1" 200 14875
+INFO 2023-10-05 14:24:20,510 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:24:22,607 basehttp 17216 15372 "GET /admin/dz2app/product/1/change/?_changelist_filters=o%3D2 HTTP/1.1" 200 13392
+INFO 2023-10-05 14:24:22,677 basehttp 17216 15372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:24:27,220 basehttp 17216 15372 "GET /admin/dz2app/product/?o=2 HTTP/1.1" 200 14610
+INFO 2023-10-05 14:26:34,902 autoreload 17216 13492 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\admin.py changed, reloading.
+INFO 2023-10-05 14:26:35,578 autoreload 16004 3764 Watching for file changes with StatReloader
+INFO 2023-10-05 14:28:30,340 autoreload 16004 3764 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\admin.py changed, reloading.
+INFO 2023-10-05 14:28:31,046 autoreload 16364 16540 Watching for file changes with StatReloader
+INFO 2023-10-05 14:28:36,843 basehttp 16364 8108 "GET /admin/dz2app/product/?o=2 HTTP/1.1" 200 14703
+INFO 2023-10-05 14:28:36,909 basehttp 16364 8108 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:28:48,912 basehttp 16364 8108 "POST /admin/dz2app/product/?o=2 HTTP/1.1" 302 0
+INFO 2023-10-05 14:28:48,968 basehttp 16364 8108 "GET /admin/dz2app/product/?o=2 HTTP/1.1" 200 14700
+INFO 2023-10-05 14:28:49,013 basehttp 16364 8108 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:28:51,206 basehttp 16364 8108 "GET /admin/dz2app/product/4/change/?_changelist_filters=o%3D2 HTTP/1.1" 200 13389
+INFO 2023-10-05 14:28:51,289 basehttp 16364 8108 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:29:02,451 basehttp 16364 8108 "POST /admin/dz2app/product/4/change/?_changelist_filters=o%3D2 HTTP/1.1" 302 0
+INFO 2023-10-05 14:29:02,547 basehttp 16364 8108 "GET /admin/dz2app/product/?o=2 HTTP/1.1" 200 14965
+INFO 2023-10-05 14:29:02,603 basehttp 16364 8108 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:31:11,664 basehttp 16364 8108 "GET /admin/dz2app/product/1/change/?_changelist_filters=o%3D2 HTTP/1.1" 200 13392
+INFO 2023-10-05 14:31:11,755 basehttp 16364 8108 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:43:38,519 autoreload 16364 16540 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\admin.py changed, reloading.
+INFO 2023-10-05 14:43:39,524 autoreload 3728 15836 Watching for file changes with StatReloader
+INFO 2023-10-05 14:43:45,919 basehttp 3728 3600 "GET /admin/dz2app/product/1/change/?_changelist_filters=o%3D2 HTTP/1.1" 200 13157
+INFO 2023-10-05 14:43:45,987 basehttp 3728 3600 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:43:52,369 basehttp 3728 3600 "GET /admin/dz2app/user/ HTTP/1.1" 200 12045
+INFO 2023-10-05 14:43:52,415 basehttp 3728 3600 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:43:54,077 basehttp 3728 3600 "GET /admin/dz2app/user/1/change/ HTTP/1.1" 200 12156
+INFO 2023-10-05 14:43:54,160 basehttp 3728 3600 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:44:03,749 basehttp 3728 3600 "GET /admin/dz2app/order/ HTTP/1.1" 200 16229
+INFO 2023-10-05 14:44:03,795 basehttp 3728 3600 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:44:05,683 basehttp 3728 3600 "GET /admin/dz2app/order/17/change/ HTTP/1.1" 200 14757
+INFO 2023-10-05 14:44:05,766 basehttp 3728 3600 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:44:13,997 basehttp 3728 3600 "GET /admin/dz2app/order/ HTTP/1.1" 200 16229
+INFO 2023-10-05 14:44:31,202 autoreload 3728 15836 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\admin.py changed, reloading.
+INFO 2023-10-05 14:44:31,902 autoreload 12152 14636 Watching for file changes with StatReloader
+INFO 2023-10-05 14:44:35,148 basehttp 12152 16928 "GET /admin/dz2app/order/17/change/ HTTP/1.1" 200 14757
+INFO 2023-10-05 14:44:35,200 basehttp 12152 16928 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:45:11,675 basehttp 12152 16928 "GET /admin/dz2app/product/ HTTP/1.1" 200 14286
+INFO 2023-10-05 14:45:11,750 basehttp 12152 16928 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:45:14,295 basehttp 12152 16928 "GET /admin/dz2app/order/ HTTP/1.1" 200 16229
+INFO 2023-10-05 14:45:14,344 basehttp 12152 16928 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:45:15,030 basehttp 12152 16928 "GET /admin/dz2app/user/ HTTP/1.1" 200 12045
+INFO 2023-10-05 14:45:15,091 basehttp 12152 16928 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:46:24,687 basehttp 12152 16928 "GET /admin/dz2app/order/ HTTP/1.1" 200 16229
+INFO 2023-10-05 14:46:24,732 basehttp 12152 16928 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:46:26,085 basehttp 12152 16928 "GET /admin/dz2app/order/9/change/ HTTP/1.1" 200 14756
+INFO 2023-10-05 14:46:26,169 basehttp 12152 16928 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:46:41,616 basehttp 12152 16928 "GET /admin/dz2app/product/ HTTP/1.1" 200 14286
+INFO 2023-10-05 14:46:41,661 basehttp 12152 16928 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:46:42,742 basehttp 12152 16928 "GET /admin/dz2app/user/ HTTP/1.1" 200 12045
+INFO 2023-10-05 14:46:42,815 basehttp 12152 16928 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-05 14:56:10,170 autoreload 12152 14636 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-10-05 14:56:10,900 autoreload 17232 17380 Watching for file changes with StatReloader
+INFO 2023-10-05 14:59:35,519 autoreload 17232 17380 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-10-05 14:59:36,268 autoreload 4752 12440 Watching for file changes with StatReloader
+INFO 2023-10-05 14:59:43,815 basehttp 4752 16420 "GET / HTTP/1.1" 200 623
+WARNING 2023-10-05 14:59:52,441 log 4752 16420 Not Found: /users
+WARNING 2023-10-05 14:59:52,442 basehttp 4752 16420 "GET /users HTTP/1.1" 404 4138
+INFO 2023-10-05 15:05:14,557 autoreload 4752 12440 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\urls.py changed, reloading.
+INFO 2023-10-05 15:05:15,296 autoreload 15736 16920 Watching for file changes with StatReloader
+INFO 2023-10-05 15:05:23,015 basehttp 15736 1964 "GET / HTTP/1.1" 200 643
+INFO 2023-10-05 15:05:26,613 basehttp 15736 1964 "GET / HTTP/1.1" 200 643
+INFO 2023-10-05 15:05:34,608 basehttp 15736 1964 "GET /users HTTP/1.1" 301 0
+INFO 2023-10-05 15:05:34,620 basehttp 15736 14616 "GET /users/ HTTP/1.1" 200 2643
+INFO 2023-10-05 15:05:38,536 basehttp 15736 14616 "GET /product/ HTTP/1.1" 200 666
+INFO 2023-10-05 15:06:39,608 basehttp 15736 14616 "GET / HTTP/1.1" 200 547
+INFO 2023-10-05 15:06:44,740 basehttp 15736 14616 "GET /product/ HTTP/1.1" 200 570
+INFO 2023-10-05 15:06:47,383 basehttp 15736 14616 "GET /users/ HTTP/1.1" 200 2643
+INFO 2023-10-05 15:08:59,706 autoreload 15736 16920 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-10-05 15:09:00,382 autoreload 15988 16164 Watching for file changes with StatReloader
+INFO 2023-10-05 15:09:07,954 basehttp 15988 16204 "GET / HTTP/1.1" 200 512
+INFO 2023-10-05 15:09:31,761 basehttp 15988 16204 "GET / HTTP/1.1" 200 512
+INFO 2023-10-05 15:09:33,474 basehttp 15988 16204 "GET /admin/dz2app/user/ HTTP/1.1" 200 12045
+INFO 2023-10-05 15:10:39,325 autoreload 15988 16164 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-10-05 15:10:40,054 autoreload 12924 17328 Watching for file changes with StatReloader
+INFO 2023-10-05 15:10:44,237 basehttp 12924 9580 "GET / HTTP/1.1" 200 512
+INFO 2023-10-05 15:10:45,882 basehttp 12924 9580 "GET / HTTP/1.1" 200 512
+INFO 2023-10-05 15:10:46,393 basehttp 12924 9580 "GET / HTTP/1.1" 200 512
+INFO 2023-10-05 15:10:46,552 basehttp 12924 9580 "GET / HTTP/1.1" 200 512
+INFO 2023-10-05 15:10:46,728 basehttp 12924 9580 "GET / HTTP/1.1" 200 512
+INFO 2023-10-05 15:10:46,864 basehttp 12924 9580 "GET / HTTP/1.1" 200 512
+INFO 2023-10-05 15:10:47,033 basehttp 12924 9580 "GET / HTTP/1.1" 200 512
+INFO 2023-10-05 15:10:47,177 basehttp 12924 9580 "GET / HTTP/1.1" 200 512
+INFO 2023-10-05 15:10:50,264 basehttp 12924 9580 "GET /admin/dz2app/user/ HTTP/1.1" 200 12045
+INFO 2023-10-05 15:10:58,451 basehttp 12924 9580 "GET / HTTP/1.1" 200 512
+WARNING 2023-10-05 15:10:58,511 log 12924 9580 Not Found: /favicon.ico
+WARNING 2023-10-05 15:10:58,512 basehttp 12924 9580 "GET /favicon.ico HTTP/1.1" 404 4157
+INFO 2023-10-05 15:12:09,287 basehttp 12924 9580 "GET / HTTP/1.1" 200 514
+INFO 2023-10-05 15:13:05,110 autoreload 16532 16636 Watching for file changes with StatReloader
+INFO 2023-10-05 15:13:12,590 basehttp 16532 16512 "GET / HTTP/1.1" 200 514
+INFO 2023-10-05 15:13:17,980 basehttp 16532 16512 "GET /users/ HTTP/1.1" 200 2643
+INFO 2023-10-05 15:14:39,924 autoreload 16532 16636 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-10-05 15:14:40,554 autoreload 4140 1856 Watching for file changes with StatReloader
+INFO 2023-10-05 15:14:41,748 basehttp 4140 12572 "GET / HTTP/1.1" 200 572
+INFO 2023-10-05 15:14:45,035 basehttp 4140 12572 "GET / HTTP/1.1" 200 572
+INFO 2023-10-05 15:14:47,208 basehttp 4140 12572 "GET /admin/dz2app/user/ HTTP/1.1" 200 12045
+INFO 2023-10-05 15:22:27,154 autoreload 4140 1856 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-10-05 15:22:27,807 autoreload 10064 4752 Watching for file changes with StatReloader
+ERROR 2023-10-05 15:22:33,966 log 10064 17012 Internal Server Error: /product/
+Traceback (most recent call last):
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py", line 76, in product_index
+    return render(request, 'dz2app/product.html',{'title': title})
+                                                           ^^^^^
+NameError: name 'title' is not defined
+ERROR 2023-10-05 15:22:33,970 basehttp 10064 17012 "GET /product/ HTTP/1.1" 500 66001
+INFO 2023-10-05 15:24:26,875 autoreload 10064 4752 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-10-05 15:24:27,533 autoreload 17328 13236 Watching for file changes with StatReloader
+INFO 2023-10-05 15:24:30,385 basehttp 17328 16548 "GET /product/ HTTP/1.1" 200 648
+INFO 2023-10-05 15:24:34,614 basehttp 17328 16548 "GET / HTTP/1.1" 200 665
+INFO 2023-10-05 15:24:36,880 basehttp 17328 16548 "GET /product/ HTTP/1.1" 200 648
+INFO 2023-10-05 15:24:38,285 basehttp 17328 16548 "GET /product/add/ HTTP/1.1" 200 1921
+WARNING 2023-10-05 15:24:41,388 log 17328 16548 Not Found: /product/add/product
+WARNING 2023-10-05 15:24:41,389 basehttp 17328 16548 "GET /product/add/product HTTP/1.1" 404 4181
+INFO 2023-10-05 15:25:22,633 autoreload 17328 13236 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-10-05 15:25:23,286 autoreload 7960 15812 Watching for file changes with StatReloader
+INFO 2023-10-05 15:25:33,291 basehttp 7960 16840 "GET /product/add/ HTTP/1.1" 200 1922
+INFO 2023-10-05 15:25:35,561 basehttp 7960 16840 "GET /product/ HTTP/1.1" 200 648
+INFO 2023-10-05 15:25:39,409 basehttp 7960 16840 "GET /product/all/ HTTP/1.1" 200 6394
+INFO 2023-10-05 15:25:39,653 basehttp 7960 16656 "GET /media/products/jeans1.png HTTP/1.1" 200 53153
+INFO 2023-10-05 15:25:39,657 basehttp 7960 13200 "GET /media/products/jacket4.png HTTP/1.1" 200 347257
+INFO 2023-10-05 15:25:39,661 basehttp 7960 16656 "GET /media/products/shoes2.png HTTP/1.1" 304 0
+INFO 2023-10-05 15:25:39,662 basehttp 7960 13200 "GET /media/products/shoes5.png HTTP/1.1" 304 0
+INFO 2023-10-05 15:25:39,662 basehttp 7960 13136 "GET /media/products/shoes4_pvkKEMr.png HTTP/1.1" 200 109296
+INFO 2023-10-05 15:25:39,662 basehttp 7960 16840 "GET /media/products/jacket1.png HTTP/1.1" 200 212409
+INFO 2023-10-05 15:25:39,666 basehttp 7960 7968 "GET /media/products/jeans4.png HTTP/1.1" 200 333719
+INFO 2023-10-05 15:25:39,667 basehttp 7960 17196 "GET /media/products/jacket3.png HTTP/1.1" 200 455472
+INFO 2023-10-05 15:27:26,770 autoreload 7960 15812 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\views.py changed, reloading.
+INFO 2023-10-05 15:27:27,414 autoreload 16936 17156 Watching for file changes with StatReloader
+INFO 2023-10-05 15:27:28,228 basehttp 16936 17152 "GET /product/update/ HTTP/1.1" 200 2994
+INFO 2023-10-05 15:27:31,032 basehttp 16936 17152 "GET /product/ HTTP/1.1" 200 648
+INFO 2023-10-05 15:27:32,499 basehttp 16936 17152 "GET /product/add/ HTTP/1.1" 200 1922
+INFO 2023-10-05 15:27:33,825 basehttp 16936 17152 "GET /product/ HTTP/1.1" 200 648
+INFO 2023-10-05 15:27:34,944 basehttp 16936 17152 "GET /product/all/ HTTP/1.1" 200 6486
+INFO 2023-10-05 15:27:39,928 basehttp 16936 17152 "GET /product/ HTTP/1.1" 200 648
+INFO 2023-10-05 15:27:41,983 basehttp 16936 17152 "GET / HTTP/1.1" 200 665
+INFO 2023-10-05 15:27:46,394 basehttp 16936 17152 "GET / HTTP/1.1" 200 665
+INFO 2023-10-05 15:27:47,068 basehttp 16936 17152 "GET / HTTP/1.1" 200 665
+INFO 2023-10-05 15:27:47,520 basehttp 16936 17152 "GET / HTTP/1.1" 200 665
+INFO 2023-10-05 15:27:47,745 basehttp 16936 17152 "GET / HTTP/1.1" 200 665
+INFO 2023-10-05 15:27:47,946 basehttp 16936 17152 "GET / HTTP/1.1" 200 665
+INFO 2023-10-05 15:27:54,707 basehttp 16936 17152 "GET /admin/ HTTP/1.1" 200 9845
+INFO 2023-10-05 15:53:53,188 basehttp 16936 2312 "GET /product/ HTTP/1.1" 200 649
+INFO 2023-10-05 15:53:56,811 basehttp 16936 2312 "GET /product/all/ HTTP/1.1" 200 6487
+INFO 2023-10-05 15:53:56,879 basehttp 16936 2312 "GET /media/products/jacket1.png HTTP/1.1" 304 0
+INFO 2023-10-05 15:53:56,883 basehttp 16936 14352 "GET /media/products/jacket4.png HTTP/1.1" 304 0
+INFO 2023-10-05 15:53:56,891 basehttp 16936 3600 "GET /media/products/shoes4_pvkKEMr.png HTTP/1.1" 304 0
+INFO 2023-10-05 15:53:56,891 basehttp 16936 15368 "GET /media/products/jacket3.png HTTP/1.1" 304 0
+INFO 2023-10-05 15:53:56,891 basehttp 16936 16068 "GET /media/products/jeans1.png HTTP/1.1" 304 0
+INFO 2023-10-05 15:53:56,892 basehttp 16936 7644 "GET /media/products/jeans4.png HTTP/1.1" 304 0
+INFO 2023-10-05 15:54:11,330 basehttp 16936 7644 "GET /users/ HTTP/1.1" 200 2643
+WARNING 2023-10-05 15:54:15,113 log 16936 7644 Not Found: /users/user/1/orders
+WARNING 2023-10-05 15:54:15,114 basehttp 16936 7644 "GET /users/user/1/orders HTTP/1.1" 404 4181
+INFO 2023-10-05 15:55:49,352 autoreload 16936 17156 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\urls.py changed, reloading.
+INFO 2023-10-05 15:55:50,026 autoreload 8768 4920 Watching for file changes with StatReloader
+WARNING 2023-10-05 16:00:49,805 log 8768 16936 Not Found: /users/user/1/orders
+WARNING 2023-10-05 16:00:49,806 basehttp 8768 16936 "GET /users/user/1/orders HTTP/1.1" 404 4180
+INFO 2023-10-05 16:03:52,138 autoreload 8768 4920 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\urls.py changed, reloading.
+INFO 2023-10-05 16:03:52,811 autoreload 1856 16560 Watching for file changes with StatReloader
+WARNING 2023-10-05 16:04:01,106 log 1856 4116 Not Found: /users/
+WARNING 2023-10-05 16:04:01,107 basehttp 1856 4116 "GET /users/ HTTP/1.1" 404 4151
+INFO 2023-10-05 16:04:22,630 autoreload 1856 16560 F:\Ó÷¸áà\GB\Django\dz2\dz2\dz2app\urls.py changed, reloading.
+INFO 2023-10-05 16:04:23,289 autoreload 2636 17216 Watching for file changes with StatReloader
+INFO 2023-10-05 16:04:28,857 basehttp 2636 436 "GET / HTTP/1.1" 200 666
+INFO 2023-10-05 16:04:30,588 basehttp 2636 436 "GET /users/ HTTP/1.1" 200 2643
+INFO 2023-10-05 16:04:33,238 basehttp 2636 436 "GET /users/user/1/orders HTTP/1.1" 301 0
+INFO 2023-10-05 16:04:33,252 basehttp 2636 11444 "GET /users/user/1/orders/ HTTP/1.1" 200 1144
+INFO 2023-10-05 16:04:35,083 basehttp 2636 11444 "GET /users/user/1/orders/7 HTTP/1.1" 200 374
+INFO 2023-10-05 16:04:38,311 basehttp 2636 11444 "GET /users/user/1/orders/400 HTTP/1.1" 200 5507
+INFO 2023-10-05 16:05:13,334 basehttp 2636 11444 "GET /users/ HTTP/1.1" 200 2643
+INFO 2023-10-05 16:10:46,138 basehttp 2636 3768 "GET /users/ HTTP/1.1" 200 2643
+INFO 2023-10-05 16:10:48,209 basehttp 2636 3768 "GET /users/user/1/orders/ HTTP/1.1" 200 1144
+INFO 2023-10-05 16:11:00,854 basehttp 2636 3768 "GET /users/user/1/orders/ HTTP/1.1" 200 1144
+INFO 2023-10-05 16:11:01,987 basehttp 2636 3768 "GET / HTTP/1.1" 200 666
+INFO 2023-10-05 16:12:36,679 basehttp 2636 3768 "GET /users/user/1/orders/7 HTTP/1.1" 200 374
+INFO 2023-10-05 16:12:40,303 basehttp 2636 3768 "GET /users/user/1/orders/ HTTP/1.1" 200 1173
+INFO 2023-10-05 16:12:41,824 basehttp 2636 3768 "GET /users/ HTTP/1.1" 200 2643
+INFO 2023-10-05 16:12:43,968 basehttp 2636 3768 "GET /users/user/5/orders HTTP/1.1" 301 0
+INFO 2023-10-05 16:12:43,976 basehttp 2636 14424 "GET /users/user/5/orders/ HTTP/1.1" 200 1173
+INFO 2023-10-05 16:12:50,264 basehttp 2636 14424 "GET /users/user/5/orders/7 HTTP/1.1" 200 374
+INFO 2023-10-05 16:14:41,939 basehttp 2636 14424 "GET /users/user/5/orders/7 HTTP/1.1" 200 453
+INFO 2023-10-05 16:14:43,312 basehttp 2636 14424 "GET /users/ HTTP/1.1" 200 2644
+INFO 2023-10-05 16:14:44,562 basehttp 2636 14424 "GET /users/user/3/orders HTTP/1.1" 301 0
+INFO 2023-10-05 16:14:44,571 basehttp 2636 11084 "GET /users/user/3/orders/ HTTP/1.1" 200 1173
+INFO 2023-10-05 16:14:46,935 basehttp 2636 11084 "GET /users/user/3/orders/365 HTTP/1.1" 200 2620
+INFO 2023-10-05 16:14:48,381 basehttp 2636 11084 "GET /users/ HTTP/1.1" 200 2644
+INFO 2023-10-05 16:16:09,723 basehttp 2636 11084 "GET /users/ HTTP/1.1" 200 2693
+INFO 2023-10-05 16:16:10,966 basehttp 2636 11084 "GET / HTTP/1.1" 200 648
